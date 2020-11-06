@@ -976,15 +976,15 @@
 		}
 		
 		male_names = {
-			Abel Anders Anund Asger Balder Benedikt BjOErn Bo Christian Christoffer Edvard Einar Erik Ernst Esben Fredrik Frej Frode Glum Gnupa Gorm Gotfred Gregers Grim Gunnar
+			Abel Anders Anund ArnbjOErn Asger Balder Benedikt Beorhthelm Beorhtnoth BjOErn Christian Christoffer Eadulf Edvard Einar Erik Ernst Esben Fredrik Frej Frode Glum Gnupa Gorm Gotfred Gregers Grim Gunnar
 			HA_rik Halfdan Halvor Hans Harald Helge Hemming Henrik Hjalmar Holger Ingolf JO_rgen JO_rn Jakob Jens Joakim Johann Karl Knud
-			Kristian Leif Lennart Ludvig Malthe Mads Mikkel Mogens Niels Odd Olav Oluf Peder Poul PridbjO_rn Ragnar Ragnvald Rolf Rune RO_rik Severin Sigfred Sigtryg Sigurd
-			Sivard Steen Svend SA_mund Thorolf Thorvald Torben TorbjOErn Tord Torfinn Torgils Ture Ubbe Uffe Ulf Valdemar Valentin Vilfred Yngvar
+			Kristian Leif Lennart Ludvig Malthe Mats Mikkel Mogens Niels Odd Onlaf Ordgar Oluf Peder Poul PridbjO_rn Ragnar Ragnvald Rolf Rune RO_rik Severin Sigfred Sigurd
+			Sivard Steinn Svend SA_mund Thorolf Thorvald Torben TorbjOErn Tord Torfinn Torgils Tostig Ture Ubbe Uffe Ulf Valdemar Valentin Vilfred Yngvar
 		}
 		female_names = {
-			Agnethe Anna Asta Benedikte Birgitta Bodil Cecilie Christina Dagmar Dorothea Elisabeth Ellinor Emilie Erika Ester Estrid Frederikke Freja
-			Grethe Gudrun Gunhild Gyda Helena Ida Ingeborg Ingegerd Ingrid Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke
-			Magdalene Maren Margrethe Maria Martha Ragnfrid Ragnhild Rikissa Runa Sanna Signe Sigrid Silje Sofie Svanhild Thyra Tora Thordis A_se
+			Agnethe Anna Asta Benedikte Beorhtwaru Beorngyth Birgitta Bodil Cecilia Christina Dagmar Dorothea Elisabeth Ellinor Emilie Erika Ester Estrid Frederikke Freja
+			Grethe Gudrun Gunhild Gyda Helena Helga Ida Ingeborg Ingegerd Ingrid Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke
+			Magdalene Maren Margrethe Maria Martha Ragnfrid Ragnhild Rikissa Runa Sanna Signe Sigrid Silje Sofie Svanhild Thyra Tora Thordis Vigdis Wulfrun A_se
 		}
 		
 		dynasty_of_location_prefix = "dynnp_af"
