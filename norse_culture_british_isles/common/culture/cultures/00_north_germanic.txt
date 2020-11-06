@@ -891,13 +891,14 @@
 		color = { 0.15 0.4 0.55 }
 
 		cadet_dynasty_names = {
-			{ "dynnp_af" "dynn_Glucksburg" }
-			{ "dynnp_af" "dynn_AbelslA_gten" }
-			{ "dynnp_af" "dynn_LO_venbalk" }
 			"dynn_Porse"
 			"dynn_Glysing"
-			{ "dynnp_af" "dynn_Danmark" }
-			{ "dynnp_af" "dynn_Viborg" }
+			{ "dynnp_af" "dynn_Norfolk" }
+			{ "dynnp_af" "dynn_Suffolk" }
+			{ "dynnp_af" "dynn_Cumberland" }
+			{ "dynnp_af" "dynn_York" }
+			{ "dynnp_af" "dynn_Northampton" }
+			{ "dynnp_af" "dynn_Northumberland" }
 			"dynn_Sprakalegg"
 			"dynn_Sturlung"
 			"dynn_SvI_nfelling"
@@ -912,29 +913,34 @@
 			"dynn_Egge"
 			"dynn_Kusse"
 			"dynn_Grand"
-			{ "dynnp_af" "dynn_Frondholm" }
 			"dynn_GO_ye"
 			"dynn_GrO_n"
 			"dynn_Friis"
 			"dynn_Daa"
 			"dynn_Ryning"
 			"dynn_Reventlow"
-			{ "dynnp_af" "dynn_Torestorp" }
 			"dynn_Ulfstand"
 			"dynn_Hack"
 			"dynn_Juul"
 			"dynn_Ulfeldt"
 			"dynn_Bang"
 			"dynn_Toll"
-			"dynn_Vognsen"
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
 			"dynn_Juel"
+			"dynn_Beorming"
+			"dynn_Randolph"
 		}
 
 		dynasty_names = {
 			"dynn_Porse"
 			"dynn_Glysing"
-			{ "dynnp_af" "dynn_Danmark" }
-			{ "dynnp_af" "dynn_Viborg" }
+			{ "dynnp_af" "dynn_Norfolk" }
+			{ "dynnp_af" "dynn_Suffolk" }
+			{ "dynnp_af" "dynn_Cumberland" }
+			{ "dynnp_af" "dynn_York" }
+			{ "dynnp_af" "dynn_Northampton" }
 			"dynn_Sprakalegg"
 			"dynn_Sturlung"
 			"dynn_SvI_nfelling"
@@ -949,22 +955,24 @@
 			"dynn_Egge"
 			"dynn_Kusse"
 			"dynn_Grand"
-			{ "dynnp_af" "dynn_Frondholm" }
 			"dynn_GO_ye"
 			"dynn_GrO_n"
 			"dynn_Friis"
 			"dynn_Daa"
 			"dynn_Ryning"
 			"dynn_Reventlow"
-			{ "dynnp_af" "dynn_Torestorp" }
 			"dynn_Ulfstand"
 			"dynn_Hack"
 			"dynn_Juul"
 			"dynn_Ulfeldt"
 			"dynn_Bang"
 			"dynn_Toll"
-			"dynn_Vognsen"
+			"dynn_Eirikson"
+			"dynn_Sognsdal"
+			"dynn_Gunarrson"
 			"dynn_Juel"
+			"dynn_Beorming"
+			"dynn_Randolph"
 		}
 		
 		male_names = {
@@ -981,7 +989,7 @@
 		
 		dynasty_of_location_prefix = "dynnp_af"
 		
-		patronym_suffix_male = "dynnpat_suf_sen"
+		patronym_suffix_male = "dynnpat_suf_son"
 		patronym_suffix_female = "dynnpat_suf_sdatter"
 		always_use_patronym = yes	
 
