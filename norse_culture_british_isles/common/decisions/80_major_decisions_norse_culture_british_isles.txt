@@ -10,9 +10,7 @@
 	is_shown = {
 		is_landed = yes
 		has_culture_group = culture_group:north_germanic_group
-		any_sub_realm_county = {
-			target_is_de_jure_liege_or_above = title:d_york
-		}
+		capital_province = { geographical_region = custom_northern_england }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -22,17 +20,28 @@
 	}
 
 	is_valid = {
+		prestige_level >= 2
 		custom_description = {
-			text = capital_in_england_region_tooltip
+			text = capital_in_northern_england_region_tooltip
 			capital_province = {
 				geographical_region = custom_northern_england
+			}
+		}
+		custom_description = {
+			text = three_north_germanic_counties_in_northern_england_tooltip
+			any_sub_realm_title {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:north_germanic_group
+				}
+				count > 2
 			}
 		}
 		OR = {
 			completely_controls = title:d_northumberland
 			completely_controls = title:d_york
 			completely_controls = title:d_lancaster
-			completely_controls = title:d_mercia
+			completely_controls = title:d_hereford
 			completely_controls = title:d_norfolk
 		}
 	}

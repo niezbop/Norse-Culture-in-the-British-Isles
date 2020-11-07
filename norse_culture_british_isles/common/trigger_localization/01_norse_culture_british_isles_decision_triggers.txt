@@ -1,0 +1,9 @@
+﻿capital_in_northern_england_region_tooltip = {
+	first = MY_CAPITAL_IS_IN_NORTHERN_ENGLAND
+}
+
+three_north_germanic_counties_in_northern_england_tooltip = {
+	global = CONTROLS_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER
+	first = I_CONTROL_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER
+	third = THEY_CONTROL_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER
+}

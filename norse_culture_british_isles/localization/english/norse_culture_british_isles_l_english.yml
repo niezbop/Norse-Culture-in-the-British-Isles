@@ -22,3 +22,7 @@
  establish_northeod_culture_decision_confirm:0 "Northeod we are!"
  establish_northeod_culture_decision_tooltip:0 "Merge our Norse and the local Anglo-Saxon cultures together"
  establish_northeod_culture_decision_effect.tt:0 "All [old_culture_1.GetName] and [old_culture_2.GetName] counties and characters in Northern England become [new_culture.GetName]"
+ MY_CAPITAL_IS_IN_NORTHERN_ENGLAND:1 "Your [realm_capital|E] is in Northern England"
+ CONTROLS_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER:0 "Controls 3 or more [counties|E] with [culture_group:north_germanic_group.GetName] culture in Northern England"
+ I_CONTROL_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER:1 "You control 3 or more [counties|E] with [culture_group:north_germanic_group.GetName] culture in Northern England"
+ THEY_CONTROL_THREE_OR_MORE_NG_COUNTIES_IN_NORTHERN_ENGLAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] controls 3 or more [counties|E] with [culture_group:north_germanic_group.GetName] culture in Northern England"
