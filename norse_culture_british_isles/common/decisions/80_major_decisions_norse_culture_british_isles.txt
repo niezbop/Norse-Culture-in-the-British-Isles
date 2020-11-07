@@ -10,13 +10,8 @@
 	is_shown = {
 		is_landed = yes
 		has_culture_group = culture_group:north_germanic_group
-		OR = {	
-			title:k_england = {
-				any_in_de_jure_hierarchy = {
-					root.primary_title = this
-				}
-			}
-			root.primary_title = title:e_britannia
+		any_sub_realm_county = {
+			target_is_de_jure_liege_or_above = title:d_york
 		}
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -30,11 +25,16 @@
 		custom_description = {
 			text = capital_in_england_region_tooltip
 			capital_province = {
-				geographical_region = custom_england
+				geographical_region = custom_northern_england
 			}
 		}
-		title:k_england.holder = root
-		completely_controls = title:d_york
+		OR = {
+			completely_controls = title:d_northumberland
+			completely_controls = title:d_york
+			completely_controls = title:d_lancaster
+			completely_controls = title:d_mercia
+			completely_controls = title:d_norfolk
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -46,12 +46,6 @@
 	effect = {
 		hidden_effect = {
 			# Generate a list of counties we want to flip to the new culture.
-			title:d_york = {
-				every_in_de_jure_hierarchy = {
-					limit = { tier = tier_county}
-					add_to_list = northeod_counties
-				}
-			}
 			every_sub_realm_title = {
 				limit = {
 					tier = tier_county

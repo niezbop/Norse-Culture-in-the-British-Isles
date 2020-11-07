@@ -21,4 +21,4 @@
  establish_northeod_culture_decision_desc:0 "No longer can we remain blind to the fact that Britannia is our new home. Let us acknowledge the fact that our customs have changed."
  establish_northeod_culture_decision_confirm:0 "Northeod we are!"
  establish_northeod_culture_decision_tooltip:0 "Merge our Norse and the local Anglo-Saxon cultures together"
- establish_northeod_culture_decision_effect.tt:0 "All [old_culture_1.GetName] and [old_culture_2.GetName] counties and characters in northern France become [new_culture.GetName]"
+ establish_northeod_culture_decision_effect.tt:0 "All [old_culture_1.GetName] and [old_culture_2.GetName] counties and characters in Northern England become [new_culture.GetName]"
