@@ -1,0 +1,61 @@
+northeod_culture.1001 = {
+	type = character_event
+	title = northeod_culture.1001.t
+	desc = northeod_culture.1001.desc
+	theme = culture_change
+	left_portrait = scope:northeod_founder
+
+	immediate = {
+		show_as_tooltip = {
+			custom_tooltip = global_culture.custom.merge_culture
+			culture:northeod = {
+				get_all_innovations_from = culture:anglo_saxon
+			}
+		}
+	}
+
+	option = {
+		name = northeod_culture.1001.a
+	}
+}
+
+northeod_culture.1002 = {
+	type = character_event
+	title = northeod_culture.1002.t
+	desc = northeod_culture.1002.desc
+	theme = culture_change
+	left_portrait = scope:northeod_founder
+
+	immediate = {
+		show_as_tooltip = {
+			custom_tooltip = global_culture.custom.merge_culture
+			culture:northeod = {
+				get_all_innovations_from = culture:anglo_saxon
+			}
+		}
+	}
+
+	option = {
+		name = northeod_culture.1002.a
+	}
+}
+
+northeod_culture.1003 = {
+	type = character_event
+	title = northeod_culture.1003.t
+	desc = northeod_culture.1003.desc
+	theme = culture_change
+	left_portrait = scope:northeod_founder
+
+	immediate = {
+		show_as_tooltip = {
+			culture:northeod = {
+				get_all_innovations_from = culture:anglo_saxon
+			}
+		}
+	}
+
+	option = {
+		name = northeod_culture.1003.a
+	}
+}

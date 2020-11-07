@@ -100,18 +100,18 @@
 						exists = capital_province
 						capital_province = { geographical_region = custom_northern_england }
 					}
-					trigger_event = global_culture.3002
+					trigger_event = northeod_culture.1001
 				}
 				else_if = {
 					limit = { this = root }
-					trigger_event = global_culture.3003
+					trigger_event = northeod_culture.1002
 				}
 				else_if = {
 					limit = {
 						exists = capital_province
-						capital_province = { geographical_region = world_europe }
+						capital_province = { geographical_region = world_europe_west_britannia }
 					}
-					trigger_event = global_culture.3005
+					trigger_event = northeod_culture.1003
 				}
 			}
 		}
@@ -145,7 +145,7 @@
 
 		# Summary of above hidden effects to inform players of the decision's impact.
 		show_as_tooltip = {
-			custom_tooltip = establish_norman_culture_decision_effect.tt
+			custom_tooltip = establish_northeod_culture_decision_effect.tt
 			culture:northeod = {
 				get_all_innovations_from = scope:old_culture_1
 				get_all_innovations_from = scope:old_culture_2
