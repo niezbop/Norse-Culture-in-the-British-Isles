@@ -94,7 +94,7 @@
 			every_player = {
 				if = {
 					limit = {
-						NOT = { this = root }
+						NOT = { this = scope:northeod_founder }
 						OR = {
 							culture_group = culture_group:north_germanic_group
 							culture = culture:anglo_saxon
@@ -106,7 +106,7 @@
 				}
 				else_if = {
 					limit = {
-						NOT = { this = root }
+						NOT = { this = scope:northeod_founder }
 						exists = capital_province
 						capital_province = { geographical_region = world_europe_west_britannia }
 					}
