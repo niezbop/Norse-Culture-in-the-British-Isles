@@ -1,0 +1,168 @@
+﻿establish_northeod_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = establish_northeod_culture_decision_desc
+	selection_tooltip = establish_northeod_culture_decision_tooltip
+
+	is_shown = {
+		is_landed = yes
+		has_culture_group = culture_group:north_germanic_group
+		OR = {	
+			title:k_england = {
+				any_in_de_jure_hierarchy = {
+					root.primary_title = this
+				}
+			}
+			root.primary_title = title:e_britannia
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:establish_northeod_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = capital_in_england_region_tooltip
+			capital_province = {
+				geographical_region = custom_england
+			}
+		}
+		title:k_england.holder = root
+		completely_controls = title:d_york
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+		is_available_adult = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			# Generate a list of counties we want to flip to the new culture.
+			title:d_york = {
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_county}
+					add_to_list = northeod_counties
+				}
+			}
+			every_sub_realm_title = {
+				limit = {
+					tier = tier_county
+				}
+				if = {
+					limit = {
+						title_province = { geographical_region = custom_northern_england }
+						OR = {
+							culture_group = culture_group:north_germanic_group
+							culture = culture:anglo_saxon
+						}
+					}
+					add_to_list = northeod_counties
+				}
+			}
+
+			save_scope_as = northeod_founder
+			culture = { save_scope_as = old_culture_1 }
+			culture:anglo_saxon = { save_scope_as = old_culture_2 }
+
+			# Perform the culture flip.
+			every_in_list = {
+				list = northeod_counties
+				merge_cultures_in_region_effect = {
+					OLD_CULTURE_1 = scope:old_culture_1
+					OLD_CULTURE_2 = culture:anglo_saxon
+					NEW_CULTURE = culture:northeod
+					REGION = custom_northern_england
+				}
+			}
+
+			# Send all players in the game a notification event about the flip.
+			culture:northeod = {
+				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture_2
+				save_scope_as = new_culture
+			}
+			every_player = {
+				if = {
+					limit = {
+						NOT = { this = root }
+						OR = {
+							culture_group = culture_group:north_germanic_group
+							culture = culture:anglo_saxon
+						}
+						exists = capital_province
+						capital_province = { geographical_region = custom_northern_england }
+					}
+					trigger_event = global_culture.3002
+				}
+				else_if = {
+					limit = { this = root }
+					trigger_event = global_culture.3003
+				}
+				else_if = {
+					limit = {
+						exists = capital_province
+						capital_province = { geographical_region = world_europe }
+					}
+					trigger_event = global_culture.3005
+				}
+			}
+		}
+
+		# Player changes culture
+		set_culture = culture:northeod
+		add_character_flag = converted_culture_this_lifetime
+		hidden_effect = {
+			every_in_list = {
+				list = northeod_counties
+				limit = {
+					holder.capital_county = { is_in_list = northeod_counties }
+				}
+				holder = {
+					add_to_list = mass_melting_pot_list
+					every_courtier = { add_to_list = mass_melting_pot_list }
+					every_courtier_away = { add_to_list = mass_melting_pot_list }
+				}
+				every_in_list = {
+					list = mass_melting_pot_list
+					limit = {
+						OR = {
+							culture = scope:old_culture_1
+							culture = culture:anglo_saxon
+						}
+					}
+					set_culture = culture:northeod
+				}
+			}
+		}
+
+		# Summary of above hidden effects to inform players of the decision's impact.
+		show_as_tooltip = {
+			custom_tooltip = establish_norman_culture_decision_effect.tt
+			culture:northeod = {
+				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture_2
+			}
+		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:establish_northeod_culture_decision
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
