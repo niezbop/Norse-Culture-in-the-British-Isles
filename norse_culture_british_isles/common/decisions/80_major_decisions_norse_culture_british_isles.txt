@@ -92,6 +92,7 @@
 				get_all_innovations_from = scope:old_culture_2
 				save_scope_as = new_culture
 			}
+			trigger_event = northeod_culture.1002
 			every_player = {
 				if = {
 					limit = {
@@ -106,11 +107,8 @@
 					trigger_event = northeod_culture.1001
 				}
 				else_if = {
-					limit = { this = root }
-					trigger_event = northeod_culture.1002
-				}
-				else_if = {
 					limit = {
+						NOT = { this = root }
 						exists = capital_province
 						capital_province = { geographical_region = world_europe_west_britannia }
 					}
