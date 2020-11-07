@@ -29,11 +29,9 @@
 		}
 		custom_description = {
 			text = three_north_germanic_counties_in_northern_england_tooltip
-			any_sub_realm_title {
-				limit = {
-					tier = tier_county
-					culture_group = culture_group:north_germanic_group
-				}
+			any_held_title {
+				tier = tier_county
+				culture_group = culture_group:north_germanic_group
 				count > 2
 			}
 		}
