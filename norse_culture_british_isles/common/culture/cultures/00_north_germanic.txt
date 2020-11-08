@@ -888,7 +888,7 @@
 			danish_coa_gfx
 		}
 
-		color = { 0.15 0.4 0.55 }
+		color = { 165 200 230 }
 
 		cadet_dynasty_names = {
 			"dynn_Porse"
