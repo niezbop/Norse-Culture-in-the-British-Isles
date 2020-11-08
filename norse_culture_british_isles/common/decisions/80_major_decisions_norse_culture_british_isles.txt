@@ -75,9 +75,9 @@
 			# Perform the culture flip.
 			every_in_list = {
 				list = northeod_counties
-				merge_cultures_in_region_effect = {
-					OLD_CULTURE_1 = scope:old_culture_1
-					OLD_CULTURE_2 = culture:anglo_saxon
+				merge_culture_with_culture_group_in_region_effect = {
+					OLD_CULTURE_GROUP = culture_group:north_germanic_group
+					OLD_CULTURE = culture:anglo_saxon
 					NEW_CULTURE = culture:northeod
 					REGION = custom_northern_england
 				}
