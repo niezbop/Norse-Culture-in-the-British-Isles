@@ -1,0 +1,40 @@
+[h1]About[/h1]
+
+[b]Norse cultures in the British Isles[/b] is a flavour mod for Crusader Kings III that adds two new [b]creatable cultures[/b] in the North Germanic group. These cultures describe an alternate history in which Norse settlement in Northern England and Scotland/Ireland would have intensified, leading to the emergence of Norse cultures in those parts of Britannia influenced by the local people, respectively the [b]Northeod[/b] culture and the [b]Norse-Gaelic[/b] one.
+
+[h1]In game features[/h1]
+[list]
+[*] 2 new cultures, Northeod and Norse-Gaelic
+[*] Decisions and event chains to create these cultures
+[*] Added flavour for the new cultures
+[/list]
+
+[h2]Culture creation requirements[/h2]
+[list]
+[*] Capital province in Northern England (or Scotland/Ireland)
+[*] Be part of the North Germanic group
+[*] Directly hold at least one North Germanic county in Northern England (or Scotland/Ireland)
+[*] At least one duchy of note completly controlled
+[*] Culture not already created
+[*] Distinguished level of fame
+[/list]
+
+[h2]Compatibility[/h2]
+
+This mod was created with compatibility in mind, but still modifies the following two files:
+[list]
+[*] [i]common/culture/cultures/00_north_germanic.txt[/i]
+[*] [i]common/landed_titles/00_landed_titles.txt[/i]
+[/list]
+
+Any mod that also changes the north germanic culture group ([i]00_north_germanic.txt[/i]) will break this mod if loaded after it.
+
+Any mod that changes [i]00_landed_titles.txt[/i] can be loaded after this mod safely, all decisions and the two cultures will exist and work just fine, but a lot of flavour will be missing out (the Duchy of York will be called York for Northeod instead of Jorvik for example).
+
+[h2]Ironman Compatibility[/h2]
+
+This mod is [b]not Ironman Compatible[/b].
+
+[h1]Links[/h1]
+
+This project can be found on [url=https://github.com/niezbop/Norse-Culture-in-the-British-Isles]Github[/url]
