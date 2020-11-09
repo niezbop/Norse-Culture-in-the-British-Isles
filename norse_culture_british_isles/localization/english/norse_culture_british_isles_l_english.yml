@@ -27,3 +27,10 @@
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Northern England"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Northern England"
  THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Northern England"
+
+ # Dynasty names
+ dynn_FA_reyjar:0 "Færeyjar"
+ dynn_SuD_reyjar:0 "Suðreyjar"
+ dynn_NorD_reyjar:0 "Norðreyjar"
+ dynn_Morrison:0 "Morrison"
+ dynn_Mann:0 "Mann"

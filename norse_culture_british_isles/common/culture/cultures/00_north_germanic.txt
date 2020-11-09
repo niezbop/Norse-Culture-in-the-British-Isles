@@ -1025,38 +1025,37 @@
 		# T_ 222 þ 254 Ð 208 T_ 240 E_
 
 		cadet_dynasty_names = {
+			{ "dynnp_av" "dynn_FA_reyjar" }
+			{ "dynnp_av" "dynn_SuD_reyjar" }
+			{ "dynnp_av" "dynn_NorD_reyjar" }
+			{ "dynnp_av" "dynn_Mann" }
+			"dynn_Dubgaill"
 			"dynn_Brusastad"
 			"dynn_Bolt"
 			"dynn_Giske"
 			"dynn_Raud"
-			"dynn_Gullbjelke"
 			"dynn_Hesby"
 			"dynn_Ulfhilde"
 			"dynn_KormA_kur"
 			"dynn_Gautur"
 			"dynn_Kvaran"
 			"dynn_EldjA_rn"
-			"dynn_MjO_ll"
 			"dynn_NO_tt"
 			"dynn_BlO_ndal"
-			"dynn_Finne"
 			"dynn_Orri"
 			"dynn_GrO_nske"
 			"dynn_Nordal"
 			"dynn_TrA_tte"
-			"dynn_KjA_rnested"
 			"dynn_BjO_rk2"
 			"dynn_Dosenrode"
 			"dynn_Haarde"
 			"dynn_A_sbrning"
 			"dynn_Oddaverjar"
 			"dynn_Ormslev"
-			"dynn_Gnarr"
 			"dynn_Holmsen"
 			"dynn_Benkestokk"
 			"dynn_Handingmann"
 			"dynn_Aspa"
-			"dynn_Aurland"
 			"dynn_BjarkO_y"
 			"dynn_Andenes"
 			"dynn_Blakar"
@@ -1130,44 +1129,44 @@
 			"dynn_UI__I_mair"
 			"dynn_O_stman"
 			"dynn_Dovre"
+			"dynn_Neacail"
+			"dynn_Morrison"
+			"dynn_Ruaidri"
+			"dynn_Cathail"
 		}
 
 		dynasty_names = {
+			{ "dynnp_av" "dynn_FA_reyjar" }
+			{ "dynnp_av" "dynn_SuD_reyjar" }
+			{ "dynnp_av" "dynn_NorD_reyjar" }
+			{ "dynnp_av" "dynn_Mann" }
+			"dynn_Dubgaill"
 			"dynn_Brusastad"
 			"dynn_Bolt"
 			"dynn_Giske"
 			"dynn_Raud"
-			"dynn_Gullbjelke"
 			"dynn_Hesby"
-			{ "dynnp_av" "dynn_Sudreim" }
-			{ "dynnp_av" "dynn_Norge" }
 			"dynn_Ulfhilde"
-			{ "dynnp_av" "dynn_Aurland" }
 			"dynn_KormA_kur"
 			"dynn_Gautur"
 			"dynn_Kvaran"
 			"dynn_EldjA_rn"
-			"dynn_MjO_ll"
 			"dynn_NO_tt"
 			"dynn_BlO_ndal"
-			"dynn_Finne"
 			"dynn_Orri"
 			"dynn_GrO_nske"
 			"dynn_Nordal"
 			"dynn_TrA_tte"
-			"dynn_KjA_rnested"
 			"dynn_BjO_rk2"
 			"dynn_Dosenrode"
 			"dynn_Haarde"
 			"dynn_A_sbrning"
 			"dynn_Oddaverjar"
 			"dynn_Ormslev"
-			"dynn_Gnarr"
 			"dynn_Holmsen"
 			"dynn_Benkestokk"
 			"dynn_Handingmann"
 			"dynn_Aspa"
-			"dynn_Aurland"
 			"dynn_BjarkO_y"
 			"dynn_Andenes"
 			"dynn_Blakar"
@@ -1240,13 +1239,11 @@
 			"dynn_Hlidarendi"
 			"dynn_UI__I_mair"
 			"dynn_O_stman"
-			{ "dynnp_av" "dynn_Rogen" }
-			{ "dynnp_av" "dynn_Bergen" }
-			{ "dynnp_av" "dynn_Eidsborg" }
-			{ "dynnp_av" "dynn_Finnmark" }
-			{ "dynnp_av" "dynn_RO_st" }
-			{ "dynnp_af" "dynn_Romerike" }
 			"dynn_Dovre"
+			"dynn_Neacail"
+			"dynn_Morrison"
+			"dynn_Ruaidri"
+			"dynn_Cathail"
 		}
 		
 		male_names = {
