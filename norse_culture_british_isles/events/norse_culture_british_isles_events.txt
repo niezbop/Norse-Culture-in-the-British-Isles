@@ -18,6 +18,7 @@ norse_culture_british_isles.1001 = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
 			culture:northeod = {
+				get_all_innovations_from = scope:old_culture_1
 				get_all_innovations_from = culture:anglo_saxon
 			}
 		}
@@ -42,6 +43,7 @@ norse_culture_british_isles.1002 = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
 			culture:northeod = {
+				get_all_innovations_from = scope:old_culture_1
 				get_all_innovations_from = culture:anglo_saxon
 			}
 		}
@@ -65,6 +67,7 @@ norse_culture_british_isles.1003 = {
 	immediate = {
 		show_as_tooltip = {
 			culture:northeod = {
+				get_all_innovations_from = scope:old_culture_1
 				get_all_innovations_from = culture:anglo_saxon
 			}
 		}

@@ -31,6 +31,7 @@
 			text = one_north_germanic_counties_in_northern_england_tooltip
 			any_held_title {
 				tier = tier_county
+				title_province = { geographical_region = custom_northern_england }
 				culture_group = culture_group:north_germanic_group
 			}
 		}
@@ -89,11 +90,10 @@
 				get_all_innovations_from = scope:old_culture_2
 				save_scope_as = new_culture
 			}
-			trigger_event = norse_culture_british_isles.1002
 			every_player = {
 				if = {
 					limit = {
-						NOT = { this = scope:northeod_founder }
+						NOT = { this = root }
 						OR = {
 							culture_group = culture_group:north_germanic_group
 							culture = culture:anglo_saxon
@@ -104,8 +104,12 @@
 					trigger_event = norse_culture_british_isles.1001
 				}
 				else_if = {
+					limit = { this = root }
+					trigger_event = norse_culture_british_isles.1002
+				}
+				else_if = {
 					limit = {
-						NOT = { this = scope:northeod_founder }
+						NOT = { this = root }
 						exists = capital_province
 						capital_province = { geographical_region = world_europe_west_britannia }
 					}
