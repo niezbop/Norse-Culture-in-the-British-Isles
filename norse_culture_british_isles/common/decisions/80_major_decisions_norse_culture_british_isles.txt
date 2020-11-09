@@ -247,8 +247,7 @@ establish_norse_gaelic_culture_decision = {
 			}
 
 			save_scope_as = norse_gaelic_founder
-			culture = { save_scope_as = old_culture_1 }
-			culture:anglo_saxon = { save_scope_as = old_culture_2 }
+			culture = { save_scope_as = old_culture }
 
 			# Perform the culture flip.
 			every_in_list = {
@@ -257,13 +256,19 @@ establish_norse_gaelic_culture_decision = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
 					NEW_CULTURE = culture:norse_gaelic
-					REGION = custom_northern_england
+					REGION = custom_scotland
+				}
+				merge_culture_groups_in_region_effect = {
+					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
+					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
+					NEW_CULTURE = culture:norse_gaelic
+					REGION = custom_ireland
 				}
 			}
 
 			# Send all players in the game a notification event about the flip.
 			culture:norse_gaelic = {
-				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
 				save_scope_as = new_culture

@@ -50,7 +50,7 @@
  establish_norse_gaelic_culture_decision_desc:0 "No longer can we remain blind to the fact that Britannia is our new home. Let us acknowledge the fact that our customs have changed."
  establish_norse_gaelic_culture_decision_confirm:0 "We are the Gall-Gaels."
  establish_norse_gaelic_culture_decision_tooltip:0 "Merge our Norse and the local Goidelic cultures together"
- establish_norse_gaelic_culture_decision_effect.tt:0 "All [old_culture_1.GetName] and [culture_group:goidelic_group.GetName] counties and characters in Scotland or Ireland become [new_culture.GetName]"
+ establish_norse_gaelic_culture_decision_effect.tt:0 "All [old_culture.GetName] and [culture_group:goidelic_group.GetName] counties and characters in Scotland or Ireland become [new_culture.GetName]"
  MY_CAPITAL_IS_IN_SCOTLAND_OR_IRELAND:1 "Your [realm_capital|E] is in Scotland or Ireland"
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Scotland or Ireland"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Scotland or Ireland"
