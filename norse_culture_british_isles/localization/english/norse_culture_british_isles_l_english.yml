@@ -38,11 +38,11 @@
  norse_culture_british_isles.2001.a:0 "To new friends and new beginnings!"
 
  norse_culture_british_isles.2002.t:0 "$norse_culture_british_isles.2001.t$"
- norse_culture_british_isles.2002.desc:0 "We can no longer ignore the fact that Britannia is our new home. The land that we used to raid and pillage now fosters our tribes and provides for us. Despite the proud heritage of our Norse ancestors, our children have never seen the shores of our fathers. They grow alongside the Englar and their customs have already started to spread in our community.\n\nBy this decree, let us admit that we are no longer the same as the people that left Scandinavia."
- norse_culture_british_isles.2002.a:0 "In their tongue we are Northeod. Northeod we shall be!"
+ norse_culture_british_isles.2002.desc:0 "The isles of Scotland have long been the home of our Norse ancestors, and our settlements are now spread all over the coasts of Ireland and Scotland. The local folk has grown accustomed to us and in their tongue, we are Gall-Gaels, the foreigners Gaels. Indeed, it is true that we are no longer the same as our fathers that left Scandinavia as the land we settled has changed us the same way we changed it.\n\nLet us acknowledge what we have become."
+ norse_culture_british_isles.2002.a:0 "Neither Norse nor Gaelic fully, we are Norse-Gaelic!"
 
  norse_culture_british_isles.2003.t:0 "$norse_culture_british_isles.2001.t$"
- norse_culture_british_isles.2003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled on the coast of Britannia, making a new home for themselves there.\n\nTheir leader, [norse_gaelic_founder.GetTitledFirstName], has decreed that [norse_gaelic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
+ norse_culture_british_isles.2003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled in the lands of the Gaels, making a new home for themselves there.\n\nTheir leader, [norse_gaelic_founder.GetTitledFirstName], has decreed that [norse_gaelic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
  norse_culture_british_isles.2003.a:0 "What does this mean for the region?"
 
  # Establish Norse-Gaelic Culture
