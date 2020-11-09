@@ -1247,7 +1247,7 @@
 		}
 		
 		male_names = {
-			Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BA_rd BjOErn Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
+			AdomnA_n Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BA_rd BjOErn ConallA_n Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
 			Grim Gudbrand Gudleik Gudmund GudrOEd Gunnar Guttorm Haldor Halfdan Halkjell Harald Helge HA_kon HA_vard Inge Ivar Jon KA_re Kolbein Lodin
 			Magnus Odd Ogmund Olav Orm Ossor Ottar PAAl Ragnar Ragnvald Rolf Sigurd Skjalg Skofte Skule Svein Sverre SA_mund TorbjOErn Tord Tore
 			Torbrand Torfinn Torgeir Torgil
