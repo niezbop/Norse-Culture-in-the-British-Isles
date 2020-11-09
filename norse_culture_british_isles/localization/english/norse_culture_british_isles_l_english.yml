@@ -4,18 +4,22 @@
  northeod_collective_noun:0 "Northeod"
  d_york_adj_northeod:0 "Jorvik"
 
+ # Norse-Gaelic Culture
+ norse_gaelic:0 "Norse-Gaelic"
+ norse_gaelic_norse_gaelic:0 "Gall-Gaels"
+
  # Northeod Merge
- northeod_culture.1001.t:0 "Rise of the Northeod"
- northeod_culture.1001.desc:1 "The lands of Britannia have provided our people with lush and fertile ground to settle and expand.\n\nBy adopting some of the traditions from the locals, we will be able to better acclimate to the region."
- northeod_culture.1001.a:0 "To new friends and new beginnings!"
+ norse_culture_british_isles.1001.t:0 "Rise of the Northeod"
+ norse_culture_british_isles.1001.desc:1 "The lands of Britannia have provided our people with lush and fertile ground to settle and expand.\n\nBy adopting some of the traditions from the locals, we will be able to better acclimate to the region."
+ norse_culture_british_isles.1001.a:0 "To new friends and new beginnings!"
 
- northeod_culture.1002.t:0 "$northeod_culture.1001.t$"
- northeod_culture.1002.desc:0 "We can no longer ignore the fact that Britannia is our new home. The land that we used to raid and pillage now fosters our tribes and provides for us. Despite the proud heritage of our Norse ancestors, our children have never seen the shores of our fathers. They grow alongside the Englar and their customs have already started to spread in our community.\n\nBy this decree, let us admit that we are no longer the same as the people that left Scandinavia."
- northeod_culture.1002.a:0 "In their tongue we are Northeod. Northeod we shall be!"
+ norse_culture_british_isles.1002.t:0 "$norse_culture_british_isles.1001.t$"
+ norse_culture_british_isles.1002.desc:0 "We can no longer ignore the fact that Britannia is our new home. The land that we used to raid and pillage now fosters our tribes and provides for us. Despite the proud heritage of our Norse ancestors, our children have never seen the shores of our fathers. They grow alongside the Englar and their customs have already started to spread in our community.\n\nBy this decree, let us admit that we are no longer the same as the people that left Scandinavia."
+ norse_culture_british_isles.1002.a:0 "In their tongue we are Northeod. Northeod we shall be!"
 
- northeod_culture.1003.t:0 "$northeod_culture.1001.t$"
- northeod_culture.1003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled on the coast of Britannia, making a new home for themselves there.\n\nTheir leader, [northeod_founder.GetTitledFirstName], has decreed that [northeod_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
- northeod_culture.1003.a:0 "What does this mean for the region?"
+ norse_culture_british_isles.1003.t:0 "$norse_culture_british_isles.1001.t$"
+ norse_culture_british_isles.1003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled on the coast of Britannia, making a new home for themselves there.\n\nTheir leader, [northeod_founder.GetTitledFirstName], has decreed that [northeod_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
+ norse_culture_british_isles.1003.a:0 "What does this mean for the region?"
 
  # Establish Northeod Culture
  establish_northeod_culture_decision:0 "Establish Northeod Culture"
@@ -27,6 +31,30 @@
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Northern England"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Northern England"
  THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Northern England"
+
+ # Norse-Gaelic Merge
+ norse_culture_british_isles.2001.t:0 "Rise of the Gall-Gaels"
+ norse_culture_british_isles.2001.desc:1 "The lands of Britannia have provided our people with lush and fertile ground to settle and expand.\n\nBy adopting some of the traditions from the locals, we will be able to better acclimate to the region."
+ norse_culture_british_isles.2001.a:0 "To new friends and new beginnings!"
+
+ norse_culture_british_isles.2002.t:0 "$norse_culture_british_isles.2001.t$"
+ norse_culture_british_isles.2002.desc:0 "We can no longer ignore the fact that Britannia is our new home. The land that we used to raid and pillage now fosters our tribes and provides for us. Despite the proud heritage of our Norse ancestors, our children have never seen the shores of our fathers. They grow alongside the Englar and their customs have already started to spread in our community.\n\nBy this decree, let us admit that we are no longer the same as the people that left Scandinavia."
+ norse_culture_british_isles.2002.a:0 "In their tongue we are Northeod. Northeod we shall be!"
+
+ norse_culture_british_isles.2003.t:0 "$norse_culture_british_isles.2001.t$"
+ norse_culture_british_isles.2003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled on the coast of Britannia, making a new home for themselves there.\n\nTheir leader, [norse_gaelic_founder.GetTitledFirstName], has decreed that [norse_gaelic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
+ norse_culture_british_isles.2003.a:0 "What does this mean for the region?"
+
+ # Establish Norse-Gaelic Culture
+ establish_norse_gaelic_culture_decision:0 "Establish Norse-Gaelic Culture"
+ establish_norse_gaelic_culture_decision_desc:0 "No longer can we remain blind to the fact that Britannia is our new home. Let us acknowledge the fact that our customs have changed."
+ establish_norse_gaelic_culture_decision_confirm:0 "Northeod we are!"
+ establish_norse_gaelic_culture_decision_tooltip:0 "Merge our Norse and the local Anglo-Saxon cultures together"
+ establish_norse_gaelic_culture_decision_effect.tt:0 "All [old_culture_1.GetName] and [old_culture_2.GetName] counties and characters in Northern England become [new_culture.GetName]"
+ MY_CAPITAL_IS_IN_SCOTLAND_OR_IRELAND:1 "Your [realm_capital|E] is in Scotland or Ireland"
+ HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Scotland or Ireland"
+ I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Scotland or Ireland"
+ THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Scotland or Ireland"
 
  # Dynasty names
  dynn_FA_reyjar:0 "Færeyjar"

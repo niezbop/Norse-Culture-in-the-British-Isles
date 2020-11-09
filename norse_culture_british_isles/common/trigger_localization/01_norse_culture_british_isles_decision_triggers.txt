@@ -7,3 +7,13 @@ one_north_germanic_counties_in_northern_england_tooltip = {
 	first = I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER
 	third = THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER
 }
+
+capital_in_scotland_or_ireland_region_tooltip = {
+	first = MY_CAPITAL_IS_IN_SCOTLAND_OR_IRELAND
+}
+
+one_north_germanic_counties_in_scotland_or_ireland_tooltip = {
+	global = HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER
+	first = I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER
+	third = THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER
+}

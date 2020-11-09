@@ -39,3 +39,18 @@ merge_culture_with_culture_group_in_region_effect = {
 		}
 	}
 }
+
+merge_culture_groups_in_region_effect = {
+	hidden_effect = {
+		convert_county_from_culture_group_and_holder_if_in_region_effect = {
+			OLD_CULTURE_GROUP = $OLD_CULTURE_GROUP_1$
+			NEW_CULTURE = $NEW_CULTURE$
+			REGION = $REGION$
+		}
+		convert_county_from_culture_group_and_holder_if_in_region_effect = {
+			OLD_CULTURE_GROUP = $OLD_CULTURE_GROUP_2$
+			NEW_CULTURE = $NEW_CULTURE$
+			REGION = $REGION$
+		}
+	}
+}
