@@ -56,6 +56,10 @@
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Scotland or Ireland"
  THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Scotland or Ireland"
 
+ # Landed Titles
+ cn_lochlann:0 "Lochlann"
+ cn_lochlann_adj:0 "Lochlannach"
+
  # Dynasty names
  dynn_FA_reyjar:0 "Færeyjar"
  dynn_SuD_reyjar:0 "Suðreyjar"

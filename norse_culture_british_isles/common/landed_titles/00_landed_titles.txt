@@ -1155,6 +1155,7 @@ e_britannia = {
 						danish = cn_bamborg
 						swedish = cn_bamborg
 						norse = cn_bamborg
+						norse_gaelic = cn_bamborg
 						northeod = cn_bamborg
 						
 						welsh = cn_din_guarie
@@ -1215,6 +1216,7 @@ e_britannia = {
 						outremer = cn_duresm
 						occitan = cn_duresm
 						norse = cn_ulfreksfjordr
+						norse_gaelic = cn_ulfreksfjordr
 						northeod = cn_ulfreksfjordr
 						norwegian = cn_ulfreksfjordr
 					}
@@ -1372,6 +1374,7 @@ e_britannia = {
 					danish = cn_djuraby
 					swedish = cn_djuraby
 					norse = cn_djuraby
+					norse_gaelic = cn_djuraby
 					northeod = cn_djuraby
 				}
 				
@@ -1386,6 +1389,7 @@ e_britannia = {
 						danish = cn_djuraby
 						swedish = cn_djuraby
 						norse = cn_djuraby
+						norse_gaelic = cn_djuraby
 						northeod = cn_djuraby
 					}
 				}
@@ -1412,6 +1416,7 @@ e_britannia = {
 			
 			cultural_names = {
 				norse = cn_jorvik
+				norse_gaelic = cn_jorvik
 				northeod = cn_jorvik
 				norwegian = cn_jorvik
 				swedish = cn_jorvik
@@ -1455,6 +1460,7 @@ e_britannia = {
 					
 					cultural_names = {
 						norse = cn_jorvik
+						norse_gaelic = cn_jorvik
 						northeod = cn_jorvik
 						norwegian = cn_jorvik
 						swedish = cn_jorvik
@@ -1626,6 +1632,7 @@ e_britannia = {
 			
 			cultural_names = {
 				norse = cn_jarnamoda
+				norse_gaelic = cn_jarnamoda
 				northeod = cn_jarnamoda
 				norwegian = cn_jarnamoda
 			}
@@ -1636,6 +1643,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_jarnamoda
+					norse_gaelic = cn_jarnamoda
 					northeod = cn_jarnamoda
 					norwegian = cn_jarnamoda
 				}
@@ -1648,6 +1656,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_jarnamoda
+						norse_gaelic = cn_jarnamoda
 						northeod = cn_jarnamoda
 						norwegian = cn_jarnamoda
 					}
@@ -1731,6 +1740,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_linn
+						norse_gaelic = cn_linn
 						northeod = cn_linn
 						norwegian = cn_linn
 					}
@@ -2891,12 +2901,14 @@ e_britannia = {
 			irish = cn_alba
 			gaelic = cn_alba
 			pictish = cn_pictland
+			norse_gaelic = cn_lochlann
 		}
 		
 		ai_primary_priority = {
 			if = {
 				limit = {
 					OR = {
+						culture = culture:norse_gaelic
 						culture = culture:scottish
 						culture = culture:gaelic
 						culture = culture:pictish
@@ -3073,6 +3085,7 @@ e_britannia = {
 
 			cultural_names = {
 				norse = cn_mon
+				norse_gaelic = cn_mon
 				northeod = cn_mon
 				norwegian = cn_mon
 			}
@@ -3083,6 +3096,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_mon
+					norse_gaelic = cn_mon
 					northeod = cn_mon
 					norwegian = cn_mon
 				}
@@ -3095,6 +3109,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_holmatun
+						norse_gaelic = cn_holmatun
 						northeod = cn_holmatun
 						norwegian = cn_holmatun
 					}
@@ -3107,6 +3122,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_hramsa
+						norse_gaelic = cn_hramsa
 						northeod = cn_hramsa
 						norwegian = cn_hramsa
 					}
@@ -3124,6 +3140,7 @@ e_britannia = {
 				gaelic = cn_galloway
 				irish = cn_galloway
 				norse = cn_galvei
+				norse_gaelic = cn_galvei
 				northeod = cn_galvei
 				norwegian = cn_galvei
 			}
@@ -3302,6 +3319,7 @@ e_britannia = {
 
 			cultural_names = {
 				norse = cn_sudreyjar
+				norse_gaelic = cn_sudreyjar
 				northeod = cn_sudreyjar
 				norwegian = cn_sudreyjar
 			}
@@ -3312,6 +3330,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_innri_sudreyjar
+					norse_gaelic = cn_innri_sudreyjar
 					northeod = cn_innri_sudreyjar
 					norwegian = cn_innri_sudreyjar
 				}
@@ -3324,6 +3343,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_il
+						norse_gaelic = cn_il
 						northeod = cn_il
 						norwegian = cn_il
 					}
@@ -3336,6 +3356,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_hereyjar
+						norse_gaelic = cn_hereyjar
 						northeod = cn_hereyjar
 						norwegian = cn_hereyjar
 					}
@@ -3348,6 +3369,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_myl
+						norse_gaelic = cn_myl
 						northeod = cn_myl
 						norwegian = cn_myl
 					}
@@ -3359,6 +3381,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_ytri_sudreyjar
+					norse_gaelic = cn_ytri_sudreyjar
 					northeod = cn_ytri_sudreyjar
 					norwegian = cn_ytri_sudreyjar
 				}
@@ -3371,6 +3394,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_skid
+						norse_gaelic = cn_skid
 						northeod = cn_skid
 						norwegian = cn_skid
 					}
@@ -3383,6 +3407,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_ljodhus
+						norse_gaelic = cn_ljodhus
 						northeod = cn_ljodhus
 						norwegian = cn_ljodhus
 					}
@@ -3395,6 +3420,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_vist
+						norse_gaelic = cn_vist
 						northeod = cn_vist
 						norwegian = cn_vist
 					}
@@ -3406,6 +3432,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_argjall
+					norse_gaelic = cn_argjall
 					northeod = cn_argjall
 					norwegian = cn_argjall
 				}
@@ -3418,6 +3445,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_kjarbarey
+						norse_gaelic = cn_kjarbarey
 						northeod = cn_kjarbarey
 						norwegian = cn_kjarbarey
 					}
@@ -3430,6 +3458,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_dysjarstadr
+						norse_gaelic = cn_dysjarstadr
 						northeod = cn_dysjarstadr
 						norwegian = cn_dysjarstadr
 					}
@@ -3442,6 +3471,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_lokolofni
+						norse_gaelic = cn_lokolofni
 						northeod = cn_lokolofni
 						norwegian = cn_lokolofni
 					}
@@ -3454,6 +3484,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_mylarsund
+						norse_gaelic = cn_mylarsund
 						northeod = cn_mylarsund
 						norwegian = cn_mylarsund
 					}
@@ -3599,6 +3630,7 @@ e_britannia = {
 
 			cultural_names = {
 				norse = cn_katanes
+				norse_gaelic = cn_katanes
 				northeod = cn_katanes
 				norwegian = cn_katanes
 			}
@@ -3632,6 +3664,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_ros
+					norse_gaelic = cn_ros
 					northeod = cn_ros
 					norwegian = cn_ros
 				}
@@ -3679,6 +3712,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_sudrland
+					norse_gaelic = cn_sudrland
 					northeod = cn_sudrland
 					norwegian = cn_sudrland
 				}
@@ -3691,6 +3725,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_hjalmundalr
+						norse_gaelic = cn_hjalmundalr
 						northeod = cn_hjalmundalr
 						norwegian = cn_hjalmundalr
 					}
@@ -3703,6 +3738,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_dyrnes
+						norse_gaelic = cn_dyrnes
 						northeod = cn_dyrnes
 						norwegian = cn_dyrnes
 					}
@@ -3715,6 +3751,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_c_katanes
+					norse_gaelic = cn_c_katanes
 					northeod = cn_c_katanes
 					norwegian = cn_c_katanes
 				}
@@ -3727,6 +3764,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_thorsa
+						norse_gaelic = cn_thorsa
 						northeod = cn_thorsa
 						norwegian = cn_thorsa
 					}
@@ -3739,6 +3777,7 @@ e_britannia = {
 
 					cultural_names = {
 						norse = cn_vik
+						norse_gaelic = cn_vik
 						northeod = cn_vik
 						norwegian = cn_vik
 					}
@@ -3813,6 +3852,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_dyflinn
+					norse_gaelic = cn_dyflinn
 					northeod = cn_dyflinn
 					norwegian = cn_dyflinn
 					irish = cn_dubhlinn
@@ -3827,6 +3867,7 @@ e_britannia = {
 					
 					cultural_names = {
 						norse = cn_dyflinn
+						norse_gaelic = cn_dyflinn
 						northeod = cn_dyflinn
 						norwegian = cn_dyflinn
 						irish = cn_dubhlinn
@@ -3922,6 +3963,7 @@ e_britannia = {
 						swedish = cn_strangfjord
 						danish = cn_strangfjord
 						norse = cn_strangfjordr
+						norse_gaelic = cn_strangfjordr
 						northeod = cn_strangfjordr
 						irish = cn_dun_padraig
 					}
@@ -3958,6 +4000,7 @@ e_britannia = {
 						swedish = cn_kerlingfjord
 						danish = cn_kerlingfjord
 						norse = cn_kerlingfrjordr
+						norse_gaelic = cn_kerlingfrjordr
 						northeod = cn_kerlingfrjordr
 						irish = cn_dun_dealgan
 					}
@@ -3989,6 +4032,7 @@ e_britannia = {
 
 				cultural_names = {
 					norse = cn_ulfkelsfjordr
+					norse_gaelic = cn_ulfkelsfjordr
 					northeod = cn_ulfkelsfjordr
 					norwegian = cn_ulfkelsfjordr
 				}
@@ -4032,6 +4076,7 @@ e_britannia = {
 					cultural_names = {
 						irish = cn_daire_coluimb_chille
 						norse = cn_ulfkelsfjordr
+						norse_gaelic = cn_ulfkelsfjordr
 						northeod = cn_ulfkelsfjordr
 						norwegian = cn_ulfkelsfjordr
 					}
@@ -4143,6 +4188,7 @@ e_britannia = {
 						swedish = cn_veisafjord
 						danish = cn_veisafjord
 						norse = cn_veisafjordr
+						norse_gaelic = cn_veisafjordr
 						northeod = cn_veisafjordr
 						irish = cn_loch_garman
 					}
@@ -4238,6 +4284,7 @@ e_britannia = {
 						danish = cn_lymrek
 						swedish = cn_lymrek
 						norse = cn_hlymrek
+						norse_gaelic = cn_hlymrek
 						northeod = cn_hlymrek
 						irish = cn_luimneach
 					}
@@ -4289,6 +4336,7 @@ e_britannia = {
 						swedish = cn_vedrafjord
 						danish = cn_vedrafjord
 						norse = cn_vedrafjordr
+						norse_gaelic = cn_vedrafjordr
 						northeod = cn_vedrafjordr
 						irish = cn_port_lairge
 					}
@@ -18147,6 +18195,7 @@ e_scandinavia = {
 				cultural_names = {
 					swedish = cn_aland_SWE
 					norse = cn_ahvenanmaa
+					norse_gaelic = cn_ahvenanmaa
 					northeod = cn_ahvenanmaa
 				}
 				
@@ -18808,6 +18857,7 @@ e_scandinavia = {
 			norwegian = cn_lappland
 			swedish = cn_lappland
 			norse = cn_lappland
+			norse_gaelic = cn_lappland
 			northeod = cn_lappland
 		}
 		
@@ -18844,6 +18894,7 @@ e_scandinavia = {
 				norwegian = cn_lappland
 				swedish = cn_lappland
 				norse = cn_lappland
+				norse_gaelic = cn_lappland
 				northeod = cn_lappland
 			}
 
@@ -19041,6 +19092,7 @@ e_scandinavia = {
 
 			cultural_names = {
 				norse = cn_finnmork
+				norse_gaelic = cn_finnmork
 				northeod = cn_finnmork
 				norwegian = cn_finnmork
 			}
@@ -19089,6 +19141,7 @@ e_scandinavia = {
 
 				cultural_names = {
 					norse = cn_trums
+					norse_gaelic = cn_trums
 					northeod = cn_trums
 					norwegian = cn_trums
 				}
@@ -19101,6 +19154,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_b_trums
+						norse_gaelic = cn_b_trums
 						northeod = cn_b_trums
 						norwegian = cn_b_trums
 					}
@@ -19113,6 +19167,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_oksfjord
+						norse_gaelic = cn_oksfjord
 						northeod = cn_oksfjord
 						norwegian = cn_oksfjord
 					}
@@ -19125,6 +19180,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_rafsbotn
+						norse_gaelic = cn_rafsbotn
 						northeod = cn_rafsbotn
 						norwegian = cn_rafsbotn
 					}
@@ -19136,6 +19192,7 @@ e_scandinavia = {
 
 				cultural_names = {
 					norse = cn_vargo
+					norse_gaelic = cn_vargo
 					northeod = cn_vargo
 					norwegian = cn_vardo
 				}
@@ -19148,6 +19205,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_porsanger
+						norse_gaelic = cn_porsanger
 						northeod = cn_porsanger
 						norwegian = cn_porsanger
 					}
@@ -19160,6 +19218,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_kollefjord
+						norse_gaelic = cn_kollefjord
 						northeod = cn_kollefjord
 						norwegian = cn_kollefjord
 					}
@@ -19178,6 +19237,7 @@ e_scandinavia = {
 
 					cultural_names = {
 						norse = cn_b_vargo
+						norse_gaelic = cn_b_vargo
 						northeod = cn_b_vargo
 						norwegian = cn_b_vardo
 					}
@@ -19575,6 +19635,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_nastved
 						norse = cn_naestved
+						norse_gaelic = cn_naestved
 						northeod = cn_naestved
 					}
 				}
@@ -19870,6 +19931,7 @@ e_scandinavia = {
 					
 					cultural_names = {
 						norse = cn_heidabyr
+						norse_gaelic = cn_heidabyr
 						northeod = cn_heidabyr
 					}
 				}
@@ -19953,6 +20015,7 @@ e_scandinavia = {
 
 		cultural_names = {
 			norse = cn_noregr
+			norse_gaelic = cn_noregr
 			northeod = cn_noregr
 		}
 
@@ -20006,6 +20069,7 @@ e_scandinavia = {
 				
 				cultural_names = {
 					norse = cn_alfheimar
+					norse_gaelic = cn_alfheimar
 					northeod = cn_alfheimar
 				}
 
@@ -20493,6 +20557,7 @@ e_scandinavia = {
 
 			cultural_names = {
 				norse = cn_island
+				norse_gaelic = cn_island
 				northeod = cn_island
 				norwegian = cn_island
 			}
@@ -20538,6 +20603,7 @@ e_scandinavia = {
 					
 					cultural_names =  {
 						norse = cn_husavik
+						norse_gaelic = cn_husavik
 						northeod = cn_husavik
 					}
 				}
@@ -20554,6 +20620,7 @@ e_scandinavia = {
 			
 			cultural_names =  {
 				norse = cn_nordreyjar
+				norse_gaelic = cn_nordreyjar
 				northeod = cn_nordreyjar
 			}
 			
@@ -20563,6 +20630,7 @@ e_scandinavia = {
 
 				cultural_names = {
 					norse = cn_orkneyjar
+					norse_gaelic = cn_orkneyjar
 					northeod = cn_orkneyjar
 					norwegian = cn_orkneyjar
 				}
@@ -20578,6 +20646,7 @@ e_scandinavia = {
 						danish = cn_kyrkovik
 						swedish = cn_kyrkovik
 						norse = cn_kirkuvag
+						norse_gaelic = cn_kirkuvag
 						northeod = cn_kirkuvag
 						pictish = cn_icluasctreh
 						welsh = cn_eglwystref
@@ -20598,6 +20667,7 @@ e_scandinavia = {
 					
 					cultural_names =  {
 						norse = cn_torshavn
+						norse_gaelic = cn_torshavn
 						northeod = cn_torshavn
 						pictish = cn_pirth_taran
 						welsh = cn_porth_taran
@@ -20611,6 +20681,7 @@ e_scandinavia = {
 				
 				cultural_names = {
 					norse = cn_hjaltland
+					norse_gaelic = cn_hjaltland
 					northeod = cn_hjaltland
 					norwegian = cn_hjaltland
 				}
@@ -20623,6 +20694,7 @@ e_scandinavia = {
 					
 					cultural_names =  {
 						norse = cn_skalavagr
+						norse_gaelic = cn_skalavagr
 						northeod = cn_skalavagr
 						norwegian = cn_skalavagr
 						pictish = cn_bachuuon_maurt
@@ -20848,6 +20920,7 @@ e_scandinavia = {
 				cultural_names = {
 					swedish = cn_satakunda
 					norse = cn_satakunda
+					norse_gaelic = cn_satakunda
 					northeod = cn_satakunda
 				}
 				
@@ -20924,6 +20997,7 @@ e_scandinavia = {
 				cultural_names = {
 					swedish = cn_olofsborg
 					norse = cn_olofsborg
+					norse_gaelic = cn_olofsborg
 					northeod = cn_olofsborg
 					norwegian = cn_olavsborg
 					danish = cn_olavsborg
@@ -20937,6 +21011,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_olofsborg
 						norse = cn_olofsborg
+						norse_gaelic = cn_olofsborg
 						northeod = cn_olofsborg
 						norwegian = cn_olavsborg
 						danish = cn_olavsborg
@@ -20960,6 +21035,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_st_michel
 						norse = cn_st_michel
+						norse_gaelic = cn_st_michel
 						northeod = cn_st_michel
 						norwegian = cn_st_michel
 						danish = cn_st_michel
@@ -21125,6 +21201,7 @@ e_scandinavia = {
 				cultural_names = {
 					swedish = cn_kexholm
 					norse = cn_kexholm
+					norse_gaelic = cn_kexholm
 					northeod = cn_kexholm
 					norwegian = cn_kexholm
 					danish = cn_kexholm
@@ -21139,6 +21216,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_kexholm
 						norse = cn_kexholm
+						norse_gaelic = cn_kexholm
 						northeod = cn_kexholm
 						norwegian = cn_kexholm
 						danish = cn_kexholm
@@ -21370,6 +21448,7 @@ e_scandinavia = {
 						swabian = cn_reval
 						bavarian = cn_reval
 						norse = cn_reval
+						norse_gaelic = cn_reval
 						northeod = cn_reval
 					}
 				}
@@ -21416,6 +21495,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_arensborg
 						norse = cn_arensborg
+						norse_gaelic = cn_arensborg
 						northeod = cn_arensborg
 						danish = cn_arensborg
 						norwegian = cn_arensborg
@@ -21440,6 +21520,7 @@ e_scandinavia = {
 					cultural_names = {
 						swedish = cn_moon
 						norse = cn_moon
+						norse_gaelic = cn_moon
 						northeod = cn_moon
 						danish = cn_moon
 						norwegian = cn_moon
@@ -21502,6 +21583,7 @@ e_scandinavia = {
 						bavarian = cn_lemsal
 						swedish = cn_lemsal
 						norse = cn_lemsal
+						norse_gaelic = cn_lemsal
 						northeod = cn_lemsal
 						danish = cn_lemsal
 						norwegian = cn_lemsal
@@ -21533,6 +21615,7 @@ e_scandinavia = {
 						bavarian = cn_U_xkU_ll
 						swedish = cn_yxkull
 						norse = cn_yxkull
+						norse_gaelic = cn_yxkull
 						northeod = cn_yxkull
 						danish = cn_yxkull
 						norwegian = cn_yxkull
@@ -21593,6 +21676,7 @@ e_scandinavia = {
 				
 				cultural_names = {
 					norse = cn_dorpat
+					norse_gaelic = cn_dorpat
 					northeod = cn_dorpat
 					swedish = cn_dorpat
 					danish = cn_dorpat
@@ -21611,6 +21695,7 @@ e_scandinavia = {
 					
 					cultural_names = {
 						norse = cn_dorpat
+						norse_gaelic = cn_dorpat
 						northeod = cn_dorpat
 						swedish = cn_dorpat
 						danish = cn_dorpat
@@ -25071,6 +25156,7 @@ e_wendish_empire = {
 						bavarian = cn_raseinen
 						swedish = cn_raseinen
 						norse = cn_raseinen
+						norse_gaelic = cn_raseinen
 						northeod = cn_raseinen
 						danish = cn_raseinen
 						norwegian = cn_raseinen
@@ -25089,6 +25175,7 @@ e_wendish_empire = {
 						bavarian = cn_georgenburg
 						swedish = cn_georgsborg
 						norse = cn_georgsborg
+						norse_gaelic = cn_georgsborg
 						northeod = cn_georgsborg
 						danish = cn_georgsborg
 						norwegian = cn_georgsborg
@@ -25219,6 +25306,7 @@ e_russia = {	#Kievan Rus
 	
 	cultural_names = {
 		norse = cn_gardariki
+		norse_gaelic = cn_gardariki
 		northeod = cn_gardariki
 		swedish = cn_gardariki
 		danish = cn_gardariki
@@ -25793,6 +25881,7 @@ e_russia = {	#Kievan Rus
 			
 			cultural_names = {
 				norse = cn_konugardr_NORSE
+				norse_gaelic = cn_konugardr_NORSE
 				northeod = cn_konugardr_NORSE
 				swedish = cn_konugard_SWE
 				norwegian = cn_konugard_NORDAN
@@ -25807,6 +25896,7 @@ e_russia = {	#Kievan Rus
 				
 				cultural_names = {
 					norse = cn_konugardr_NORSE
+					norse_gaelic = cn_konugardr_NORSE
 					northeod = cn_konugardr_NORSE
 					swedish = cn_konugard_SWE
 					norwegian = cn_konugard_NORDAN
@@ -25823,6 +25913,7 @@ e_russia = {	#Kievan Rus
 					
 					cultural_names = {
 						norse = cn_konugardr_NORSE
+						norse_gaelic = cn_konugardr_NORSE
 						northeod = cn_konugardr_NORSE
 						swedish = cn_konugard_SWE
 						norwegian = cn_konugard_NORDAN
@@ -26551,6 +26642,7 @@ e_russia = {	#Kievan Rus
 		
 		cultural_names = {
 			norse = cn_gardariki
+			norse_gaelic = cn_gardariki
 			northeod = cn_gardariki
 			swedish = cn_gardariki
 			danish = cn_gardariki
@@ -26565,6 +26657,7 @@ e_russia = {	#Kievan Rus
 			
 			cultural_names = {
 				norse = cn_holmgardr
+				norse_gaelic = cn_holmgardr
 				northeod = cn_holmgardr
 				swedish = cn_holmgardr
 				danish = cn_holmgardr
@@ -26584,6 +26677,7 @@ e_russia = {	#Kievan Rus
 					
 					cultural_names = {
 						norse = cn_holmgardr
+						norse_gaelic = cn_holmgardr
 						northeod = cn_holmgardr
 						swedish = cn_holmgardr
 						danish = cn_holmgardr
@@ -26599,6 +26693,7 @@ e_russia = {	#Kievan Rus
 					
 					cultural_names = {
 						norse = cn_aldeigjuborg
+						norse_gaelic = cn_aldeigjuborg
 						northeod = cn_aldeigjuborg
 						swedish = cn_aldeigjuborg
 						danish = cn_aldeigjuborg
@@ -26756,6 +26851,7 @@ e_russia = {	#Kievan Rus
 					cultural_names = {
 						swedish = cn_noteborg_SWENORSE
 						norse = cn_noteborg_SWENORSE
+						norse_gaelic = cn_noteborg_SWENORSE
 						northeod = cn_noteborg_SWENORSE
 						norwegian = cn_noteborg_DANNOR
 						danish = cn_noteborg_DANNOR
@@ -27385,6 +27481,7 @@ e_russia = {	#Kievan Rus
 				polish = cn_polock
 				swedish = cn_pallteskja
 				norse = cn_pallteskja
+				norse_gaelic = cn_pallteskja
 				northeod = cn_pallteskja
 				danish = cn_pallteskja
 				norwegian = cn_pallteskja
@@ -27399,6 +27496,7 @@ e_russia = {	#Kievan Rus
 					polish = cn_polock
 					swedish = cn_pallteskja
 					norse = cn_pallteskja
+					norse_gaelic = cn_pallteskja
 					northeod = cn_pallteskja
 					danish = cn_pallteskja
 					norwegian = cn_pallteskja
@@ -27415,6 +27513,7 @@ e_russia = {	#Kievan Rus
 						polish = cn_polock
 						swedish = cn_pallteskja
 						norse = cn_pallteskja
+						norse_gaelic = cn_pallteskja
 						northeod = cn_pallteskja
 						danish = cn_pallteskja
 						norwegian = cn_pallteskja
@@ -27676,6 +27775,7 @@ e_russia = {	#Kievan Rus
 				
 				cultural_names = {
 					norse = cn_timerovo
+					norse_gaelic = cn_timerovo
 					northeod = cn_timerovo
 					swedish = cn_timerovo
 					norwegian = cn_timerovo
@@ -27695,6 +27795,7 @@ e_russia = {	#Kievan Rus
 					
 					cultural_names = {
 						norse = cn_timerovo
+						norse_gaelic = cn_timerovo
 						northeod = cn_timerovo
 						swedish = cn_timerovo
 						norwegian = cn_timerovo
