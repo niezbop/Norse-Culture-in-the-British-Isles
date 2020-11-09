@@ -1,0 +1,5 @@
+[h1]About[/h1]
+
+This is a patch between [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2282070652]Norse Cultures in the British Isles[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2233777492]Rosetta CK3[/url].
+
+Load this mod after both mods for it to work.
