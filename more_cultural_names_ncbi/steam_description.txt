@@ -1,0 +1,14 @@
+[h1]About[/h1]
+
+This is a patch between [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2282070652]Norse Cultures in the British Isles[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url].
+
+While both mods are not strictly incompatible, [b]More Cultural Names[/b] if loaded after [b]Norse Cultures in the British Isles[/b] does not support it, and the immersion added by the cultural names is broken by the fact that the [b]Northeod[/b] and [b]Norse-Gaelic[/b] are not covered by the mod.
+
+This patch addresses this issue by:
+[list]
+[*] Creating Norse-Gaelic names from More Cultural Names Norwegian
+[*] Creating Northeod names from More Cultural Names Danish
+[*] Adding back the flavour added by Norse Cultures in the British Isles
+[/list]
+
+Load this mod after both mods for it to work.
