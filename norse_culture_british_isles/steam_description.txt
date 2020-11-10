@@ -31,6 +31,11 @@ Any mod that also changes the north germanic culture group ([i]00_north_germanic
 
 Any mod that changes [i]00_landed_titles.txt[/i] can be loaded after this mod safely, all decisions and the two cultures will exist and work just fine, but a lot of flavour will be missing out (the Duchy of York will be called York for Northeod instead of Jorvik for example).
 
+[h2]Specific mods Compatibility[/h2]
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url]: if loaded after [b]Norse cultures in the British Isles[/b], both mods will work fine. The Northeod and Norse-Gaelic culture however are not supported by [b]More Cultural Names[/b], which means that they will use the Vanilla names. I made a patch for them to use cultural names as well: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2283101111]More Cultural Names + Norse Cultures in the British Isles[/url]
+[/list]
+
 [h2]Ironman Compatibility[/h2]
 
 This mod is [b]not Ironman Compatible[/b].
