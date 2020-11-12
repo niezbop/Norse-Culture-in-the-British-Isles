@@ -877,6 +877,7 @@ e_britannia = {
 			if = {
 				limit = {
 					OR = {
+						culture = culture:northeod
 						culture = culture:english
 						culture = culture:anglo_saxon
 					}
