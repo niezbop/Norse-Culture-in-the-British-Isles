@@ -2,7 +2,7 @@
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = yes
 
-	ai_check_interval = 120
+	ai_check_interval = 36
 
 	desc = establish_northeod_culture_decision_desc
 	selection_tooltip = establish_northeod_culture_decision_tooltip
@@ -173,7 +173,7 @@ establish_norse_gaelic_culture_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = yes
 
-	ai_check_interval = 120
+	ai_check_interval = 36
 
 	desc = establish_norse_gaelic_culture_decision_desc
 	selection_tooltip = establish_norse_gaelic_culture_decision_tooltip
