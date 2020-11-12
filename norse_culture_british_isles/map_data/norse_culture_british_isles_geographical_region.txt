@@ -1,0 +1,16 @@
+custom_norse_gaelic_british_isles = {
+    duchies = {
+		#Scotland
+		d_albany d_the_isles d_galloway d_western_isles d_lothian d_moray
+		#Ireland
+		d_ulster d_connacht d_meath d_leinster d_munster
+		#Norway
+		d_northern_isles
+    }
+}
+
+custom_northeod_british_isles {
+    duchies = {
+		d_northumberland d_york d_lancaster d_hereford d_norfolk d_bedford d_canterbury
+    }
+}

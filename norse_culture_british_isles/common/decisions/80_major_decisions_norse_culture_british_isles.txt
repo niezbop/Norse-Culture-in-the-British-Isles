@@ -10,7 +10,7 @@
 	is_shown = {
 		is_landed = yes
 		has_culture_group = culture_group:north_germanic_group
-		capital_province = { geographical_region = custom_northern_england }
+		capital_province = { geographical_region = custom_northeod_british_isles }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -24,14 +24,14 @@
 		custom_description = {
 			text = capital_in_northern_england_region_tooltip
 			capital_province = {
-				geographical_region = custom_northern_england
+				geographical_region = custom_northeod_british_isles
 			}
 		}
 		custom_description = {
 			text = one_north_germanic_counties_in_northern_england_tooltip
 			any_held_title {
 				tier = tier_county
-				title_province = { geographical_region = custom_northern_england }
+				title_province = { geographical_region = custom_northeod_british_isles }
 				culture_group = culture_group:north_germanic_group
 			}
 		}
@@ -59,7 +59,7 @@
 				}
 				if = {
 					limit = {
-						title_province = { geographical_region = custom_northern_england }
+						title_province = { geographical_region = custom_northeod_british_isles }
 						OR = {
 							culture_group = culture_group:north_germanic_group
 							culture = culture:anglo_saxon
@@ -80,7 +80,7 @@
 					OLD_CULTURE_GROUP = culture_group:north_germanic_group
 					OLD_CULTURE = culture:anglo_saxon
 					NEW_CULTURE = culture:northeod
-					REGION = custom_northern_england
+					REGION = custom_northeod_british_isles
 				}
 			}
 
@@ -99,7 +99,7 @@
 							culture = culture:anglo_saxon
 						}
 						exists = capital_province
-						capital_province = { geographical_region = custom_northern_england }
+						capital_province = { geographical_region = custom_northeod_british_isles }
 					}
 					trigger_event = norse_culture_british_isles.1001
 				}
@@ -181,10 +181,7 @@ establish_norse_gaelic_culture_decision = {
 	is_shown = {
 		is_landed = yes
 		has_culture_group = culture_group:north_germanic_group
-		OR = {
-			capital_province = { geographical_region = custom_scotland }
-			capital_province = { geographical_region = custom_ireland }
-		}
+		capital_province = { geographical_region = custom_norse_gaelic_british_isles }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -197,19 +194,13 @@ establish_norse_gaelic_culture_decision = {
 		prestige_level >= 2
 		custom_description = {
 			text = capital_in_scotland_or_ireland_region_tooltip
-			OR = {
-				capital_province = { geographical_region = custom_scotland }
-				capital_province = { geographical_region = custom_ireland }
-			}
+			capital_province = { geographical_region = custom_norse_gaelic_british_isles }
 		}
 		custom_description = {
 			text = one_north_germanic_counties_in_scotland_or_ireland_tooltip
 			any_held_title {
 				tier = tier_county
-				OR = {
-					title_province = { geographical_region = custom_scotland }
-					title_province = { geographical_region = custom_ireland }
-				}
+				title_province = { geographical_region = custom_norse_gaelic_british_isles }
 				culture_group = culture_group:north_germanic_group
 			}
 		}
@@ -237,10 +228,7 @@ establish_norse_gaelic_culture_decision = {
 				}
 				if = {
 					limit = {
-						OR = {
-							title_province = { geographical_region = custom_scotland }
-							title_province = { geographical_region = custom_ireland }
-						}
+						title_province = { geographical_region = custom_norse_gaelic_british_isles }
 						OR = {
 							culture_group = culture_group:north_germanic_group
 							culture_group = culture_group:goidelic_group
@@ -260,13 +248,7 @@ establish_norse_gaelic_culture_decision = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
 					NEW_CULTURE = culture:norse_gaelic
-					REGION = custom_scotland
-				}
-				merge_culture_groups_in_region_effect = {
-					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
-					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
-					NEW_CULTURE = culture:norse_gaelic
-					REGION = custom_ireland
+					REGION = custom_norse_gaelic_british_isles
 				}
 			}
 
@@ -286,10 +268,7 @@ establish_norse_gaelic_culture_decision = {
 							culture_group = culture_group:goidelic_group
 						}
 						exists = capital_province
-						OR = {
-							capital_province = { geographical_region = custom_scotland }
-							capital_province = { geographical_region = custom_ireland }
-						}
+						capital_province = { geographical_region = custom_norse_gaelic_british_isles }
 					}
 					trigger_event = norse_culture_british_isles.2001
 				}
