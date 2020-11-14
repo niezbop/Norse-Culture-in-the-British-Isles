@@ -96,7 +96,7 @@ norse_culture_british_isles.2001 = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
 			culture:norse_gaelic = {
-				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
 			}
@@ -122,7 +122,7 @@ norse_culture_british_isles.2002 = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
 			culture:norse_gaelic = {
-				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
 			}
@@ -147,7 +147,7 @@ norse_culture_british_isles.2003 = {
 	immediate = {
 		show_as_tooltip = {
 			culture:norse_gaelic = {
-				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
 			}

@@ -305,7 +305,7 @@ establish_norse_gaelic_culture_decision = {
 					list = mass_melting_pot_list
 					limit = {
 						OR = {
-							culture = scope:old_culture_1
+							culture = scope:old_culture
 							culture_group = culture_group:goidelic_group
 						}
 					}
@@ -318,7 +318,7 @@ establish_norse_gaelic_culture_decision = {
 		show_as_tooltip = {
 			custom_tooltip = establish_norse_gaelic_culture_decision_effect.tt
 			culture:norse_gaelic = {
-				get_all_innovations_from = scope:old_culture_1
+				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
 			}
