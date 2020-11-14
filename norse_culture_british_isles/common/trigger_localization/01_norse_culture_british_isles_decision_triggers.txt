@@ -18,12 +18,12 @@ one_north_germanic_counties_in_scotland_or_ireland_tooltip = {
 	third = THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER
 }
 
-capital_in_brythonic_region_region_tooltip = {
-	first = MY_CAPITAL_IS_IN_BRYTHONIC_REGION
+capital_in_wales_region_tooltip = {
+	first = MY_CAPITAL_IS_IN_WALES
 }
 
-one_north_germanic_counties_in_brythonic_region_tooltip = {
-	global = HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER
-	first = I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER
-	third = THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER
+one_north_germanic_counties_in_wales_tooltip = {
+	global = HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER
+	first = I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER
+	third = THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER
 }

@@ -78,10 +78,10 @@
  establish_norse_brythonic_culture_decision_confirm:0 "We are the Gall-Gaels."
  establish_norse_brythonic_culture_decision_tooltip:0 "Merge our Norse and the local Goidelic cultures together"
  establish_norse_brythonic_culture_decision_effect.tt:0 "All [old_culture.GetName] and [culture_group:goidelic_group.GetName] counties and characters in Scotland or Ireland become [new_culture.GetName]"
- MY_CAPITAL_IS_IN_BRYTHONIC_REGION:1 "Your [realm_capital|E] is in Wales, Cornwall or Southern Scotland"
- HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Wales, Cornwall or Southern Scotland"
- I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Wales, Cornwall or Southern Scotland"
- THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_BRYTHONIC_REGION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Wales, Cornwall or Southern Scotland"
+ MY_CAPITAL_IS_IN_WALES:1 "Your [realm_capital|E] is in Wales"
+ HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Wales"
+ I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Wales"
+ THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:0 "[CHARACTER.GetShortUIName|U] holds at least one [county|E] with North Germanic culture in Wales"
 
  # Landed Titles
  cn_lochlann:0 "Lochlann"
