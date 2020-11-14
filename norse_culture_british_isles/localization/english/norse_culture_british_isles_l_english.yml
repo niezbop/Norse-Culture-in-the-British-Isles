@@ -66,18 +66,18 @@
 
  norse_culture_british_isles.3002.t:0 "$norse_culture_british_isles.3001.t$"
  norse_culture_british_isles.3002.desc:0 "The land of the Brythons have long been the home of our Norse ancestors, and our settlements are now spread all over the coasts of Ireland and Scotland. The local folk has grown accustomed to us and in their tongue, we are Gall-Gaels, the foreigners Gaels. Indeed, it is true that we are no longer the same as our fathers that left Scandinavia as the land we settled has changed us the same way we changed it.\n\nLet us acknowledge what we have become."
- norse_culture_british_isles.3002.a:0 "Neither Norse nor Gaelic fully, we are Norse-Gaelic!"
+ norse_culture_british_isles.3002.a:0 "Neither Norse nor Brythonic fully, we are Norse-Brythons!"
 
  norse_culture_british_isles.3003.t:0 "$norse_culture_british_isles.3001.t$"
- norse_culture_british_isles.3003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled in the lands of the Gaels, making a new home for themselves there.\n\nTheir leader, [norse_brythonic_founder.GetTitledFirstName], has decreed that [norse_brythonic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
+ norse_culture_british_isles.3003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled in the lands of the Brythons, making a new home for themselves there.\n\nTheir leader, [norse_brythonic_founder.GetTitledFirstName], has decreed that [norse_brythonic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
  norse_culture_british_isles.3003.a:0 "What does this mean for the region?"
 
  # Establish Norse-Brythonic Culture
- establish_norse_brythonic_culture_decision:0 "Establish Norse-Gaelic Culture"
+ establish_norse_brythonic_culture_decision:0 "Establish Norse-Brythonic Culture"
  establish_norse_brythonic_culture_decision_desc:0 "No longer can we remain blind to the fact that Britannia is our new home. Let us acknowledge the fact that our customs have changed."
- establish_norse_brythonic_culture_decision_confirm:0 "We are the Gall-Gaels."
- establish_norse_brythonic_culture_decision_tooltip:0 "Merge our Norse and the local Goidelic cultures together"
- establish_norse_brythonic_culture_decision_effect.tt:0 "All [old_culture.GetName] and [culture_group:goidelic_group.GetName] counties and characters in Scotland or Ireland become [new_culture.GetName]"
+ establish_norse_brythonic_culture_decision_confirm:0 "We are the Norse-Brythons."
+ establish_norse_brythonic_culture_decision_tooltip:0 "Merge our Norse and the local Brythonic cultures together"
+ establish_norse_brythonic_culture_decision_effect.tt:0 "All [old_culture.GetName] and [culture_group:brythonic_group.GetName] counties and characters in Scotland or Ireland become [new_culture.GetName]"
  MY_CAPITAL_IS_IN_WALES:1 "Your [realm_capital|E] is in Wales"
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:0 "Holds at least one [county|E] with North Germanic culture in Wales"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:1 "You hold at least one [county|E] with North Germanic culture in Wales"
