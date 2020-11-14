@@ -1301,7 +1301,7 @@
 			norwegian_coa_gfx
 		}
 
-		color = { 120 80 190 }
+		color = { 90 80 150 }
 
 		cadet_dynasty_names = {
 			"dynn_Brusastad"
