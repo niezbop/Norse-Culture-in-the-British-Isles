@@ -2,11 +2,14 @@
  # Northeod Culture
  northeod:0 "Northeod"
  northeod_collective_noun:0 "Northeod"
- d_york_adj_northeod:0 "Jorvik"
 
  # Norse-Gaelic Culture
  norse_gaelic:0 "Norse-Gaelic"
- norse_gaelic_norse_gaelic:0 "Gall-Gaels"
+ norse_gaelic_collective_noun:0 "Norse-Gaels"
+
+ # Norse-Brythonic Culture
+ norse_brythonic:0 "Norse-Brythonic"
+ norse_brythonic_collective_noun:0 "Norse-Brythons"
 
  # Northeod Merge
  norse_culture_british_isles.1001.t:0 "Rise of the Northeod"

@@ -1269,7 +1269,7 @@
 		
 		patronym_suffix_male = "dynnpat_suf_sson"
 		patronym_suffix_female = "dynnpat_suf_sdatter"
-		always_use_patronym = yes	
+		always_use_patronym = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 40
@@ -1293,6 +1293,272 @@
 		
 		mercenary_names = {
 			{ name = mercenary_company_gallowglasses }
+		}
+	}
+
+	norse_brythonic = {
+		graphical_cultures = {
+			norwegian_coa_gfx
+		}
+
+		color = { 120 80 190 }
+
+		cadet_dynasty_names = {
+			"dynn_Brusastad"
+			"dynn_Bolt"
+			"dynn_Giske"
+			"dynn_Raud"
+			"dynn_Gullbjelke"
+			"dynn_Hesby"
+			"dynn_Ulfhilde"
+			"dynn_KormA_kur"
+			"dynn_Gautur"
+			"dynn_Kvaran"
+			"dynn_EldjA_rn"
+			"dynn_MjO_ll"
+			"dynn_NO_tt"
+			"dynn_BlO_ndal"
+			"dynn_Finne"
+			"dynn_Orri"
+			"dynn_GrO_nske"
+			"dynn_Nordal"
+			"dynn_TrA_tte"
+			"dynn_KjA_rnested"
+			"dynn_BjO_rk2"
+			"dynn_Dosenrode"
+			"dynn_Haarde"
+			"dynn_A_sbrning"
+			"dynn_Oddaverjar"
+			"dynn_Ormslev"
+			"dynn_Gnarr"
+			"dynn_Holmsen"
+			"dynn_Benkestokk"
+			"dynn_Handingmann"
+			"dynn_Aspa"
+			"dynn_Aurland"
+			"dynn_BjarkO_y"
+			"dynn_Andenes"
+			"dynn_Blakar"
+			"dynn_Blindheim"
+			"dynn_Asdal"
+			"dynn_Hudfat"
+			"dynn_HA_rd"
+			"dynn_Kane"
+			"dynn_Losna"
+			"dynn_Ringnes"
+			"dynn_Semeleng"
+			"dynn_SpA_nheim"
+			"dynn_Gjesling"
+			"dynn_Sudrheim"
+			"dynn_Talgje"
+			"dynn_Teiste"
+			"dynn_O_stby"
+			"dynn_O_strA_t"
+			"dynn_Rein"
+			"dynn_Giske"
+			"dynn_Kamp"
+			"dynn_Nordhagen"
+			"dynn_Bolt"
+			"dynn_Galle"
+			"dynn_Galtung"
+			"dynn_Hjerne"
+			"dynn_Kamp"
+			"dynn_RO_mer"
+			"dynn_Skanke"
+			"dynn_SmO_r"
+			"dynn_Staur"
+			"dynn_Skjegge"
+			"dynn_Gunn"
+			"dynn_Helmehytte"
+			"dynn_Akeleye"
+			"dynn_Brockenhuus"
+			"dynn_Kamban"
+			"dynn_Somerled"
+			"dynn_MO_re"
+			"dynn_Krabbe"
+			"dynn_Lodehat"
+			"dynn_Pagh"
+			"dynn_Vedel"
+			"dynn_Rosenkrantz"
+			"dynn_Kaas"
+			"dynn_Juel"
+			"dynn_Bildt"
+			"dynn_Galte"
+			"dynn_Drotning"
+			"dynn_Kjarval"
+			"dynn_Ekeh"
+			"dynn_LO_ve"
+			"dynn_Ormstunga"
+			"dynn_GoD_i"
+			"dynn_Gautur"
+			"dynn_Eyfells"
+			"dynn_A_sgeir"
+			"dynn_Kamban"
+			"dynn_Braghde"
+			"dynn_BanE_r"
+			"dynn_Wrede"
+			"dynn_Balk"
+			"dynn_Taube"
+			"dynn_Creutz"
+			"dynn_Wrangel"
+			"dynn_Sporre"
+			"dynn_EhrensvA_rd"
+			"dynn_Aldersparre"
+			"dynn_AdelswA_rd"
+			"dynn_Hlidarendi"
+			"dynn_UI__I_mair"
+			"dynn_O_stman"
+			"dynn_Dovre"
+		}
+
+		dynasty_names = {
+			"dynn_Brusastad"
+			"dynn_Bolt"
+			"dynn_Giske"
+			"dynn_Raud"
+			"dynn_Gullbjelke"
+			"dynn_Hesby"
+			"dynn_Ulfhilde"
+			"dynn_KormA_kur"
+			"dynn_Gautur"
+			"dynn_Kvaran"
+			"dynn_EldjA_rn"
+			"dynn_MjO_ll"
+			"dynn_NO_tt"
+			"dynn_BlO_ndal"
+			"dynn_Finne"
+			"dynn_Orri"
+			"dynn_GrO_nske"
+			"dynn_Nordal"
+			"dynn_TrA_tte"
+			"dynn_KjA_rnested"
+			"dynn_BjO_rk2"
+			"dynn_Dosenrode"
+			"dynn_Haarde"
+			"dynn_A_sbrning"
+			"dynn_Oddaverjar"
+			"dynn_Ormslev"
+			"dynn_Gnarr"
+			"dynn_Holmsen"
+			"dynn_Benkestokk"
+			"dynn_Handingmann"
+			"dynn_Aspa"
+			"dynn_Aurland"
+			"dynn_BjarkO_y"
+			"dynn_Andenes"
+			"dynn_Blakar"
+			"dynn_Blindheim"
+			"dynn_Asdal"
+			"dynn_Hudfat"
+			"dynn_HA_rd"
+			"dynn_Kane"
+			"dynn_Losna"
+			"dynn_Ringnes"
+			"dynn_Semeleng"
+			"dynn_SpA_nheim"
+			"dynn_Gjesling"
+			"dynn_Sudrheim"
+			"dynn_Talgje"
+			"dynn_Teiste"
+			"dynn_O_stby"
+			"dynn_O_strA_t"
+			"dynn_Rein"
+			"dynn_Giske"
+			"dynn_Kamp"
+			"dynn_Nordhagen"
+			"dynn_Bolt"
+			"dynn_Galle"
+			"dynn_Galtung"
+			"dynn_Hjerne"
+			"dynn_Kamp"
+			"dynn_RO_mer"
+			"dynn_Skanke"
+			"dynn_SmO_r"
+			"dynn_Staur"
+			"dynn_Skjegge"
+			"dynn_Gunn"
+			"dynn_Helmehytte"
+			"dynn_Akeleye"
+			"dynn_Brockenhuus"
+			"dynn_Kamban"
+			"dynn_Somerled"
+			"dynn_MO_re"
+			"dynn_Krabbe"
+			"dynn_Lodehat"
+			"dynn_Pagh"
+			"dynn_Vedel"
+			"dynn_Rosenkrantz"
+			"dynn_Kaas"
+			"dynn_Juel"
+			"dynn_Bildt"
+			"dynn_Galte"
+			"dynn_Drotning"
+			"dynn_Kjarval"
+			"dynn_Ekeh"
+			"dynn_LO_ve"
+			"dynn_Ormstunga"
+			"dynn_GoD_i"
+			"dynn_Gautur"
+			"dynn_Eyfells"
+			"dynn_A_sgeir"
+			"dynn_Kamban"
+			"dynn_Braghde"
+			"dynn_BanE_r"
+			"dynn_Wrede"
+			"dynn_Balk"
+			"dynn_Taube"
+			"dynn_Creutz"
+			"dynn_Wrangel"
+			"dynn_Sporre"
+			"dynn_EhrensvA_rd"
+			"dynn_Aldersparre"
+			"dynn_AdelswA_rd"
+			"dynn_Hlidarendi"
+			"dynn_UI__I_mair"
+			"dynn_O_stman"
+			"dynn_Dovre"
+		}
+		
+		male_names = {
+			A_ke A_le A_mund Adran Ale Alisander Alured Annwn Anund Argad Arne Arngrimr Arnkjell Arnmod Arnvid AsbjO_rn Audun BA_rd Bagge Balder
+			Bersi BjOErn Bleddyn Bo Borkvard Botulfr Bragi Budog Cadwaladr Cyndeyrn Cynwallon Dag Dywel Ednyfed Ednywain Edwyn Egill Eilif Einar Eirikr
+			Elystan Emund Erlend Erling Eystein Faste Filip Finn Folki Fredrik Freyr Frioc Fychan Geirr Georg Greger Grimr GuT_friT_ GuT_mundr Gudbrand
+			Gudleik GudrOEd Gunnarr Guttorm Gwidyr HA_vard HE_steinn Hakon Haldor Halkjell Halsten Harald Haukr Helge Hemming HrO_rekr HroT_ulfr Hysing Inge Ingemar
+			Ingjald Ivar Jedvard Jon KA_re Kolbein Lodin Macsen Magnus Morien O_lver Odd Ogmund Olafr Orm Ossor Ottarr PAAl Padrig RO_gnvaldr
+			Ragnar Refr Rolf Rolope SE_mundr SO_lvi Sigtrygg Sigurd Skofte Skuli StarkaT_r Steinn Stinian SumarliT_i Svein Sverker Tamalanc Tegonwy Tegwin Tjudmund
+			Tolir TorbjOErn Torbrand Tore Torgil Tormod Torolf Torstein Toste Totil Tryggve Tudwallon Ulv Vigleik Yngvar
+		}
+		female_names = {
+			A_se A_sta Aeronwy Aleta AlfriT_ Anna Annest Arganteilin Astrid Beata Bodil Brigida Cecilia Ceindrych Effros Efyrddyl Elin Enid Freja Freydi_s
+			GerT_r Gjertrud GloT_ Grima GuT_run Gudrid Gunnhildr Gyda Gyla Gyrid Hafrid Helena Holmfrid Homlaug IngebjO_rg IngjerT_r Ingrid Karin Kristina Llecci
+			Mabyn Margrete Maria Martha Melisant Oncenedl Ragna Ragnfrid Ragnhild Rannveig Rikissa Rumun Saga Sara Sigrid SnO_frid Svanhildr T_ora T_ordis T_yra
+			Ylva
+		}
+		
+		dynasty_of_location_prefix = "dynnp_av"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdatter"
+		always_use_patronym = yes
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+		
+		ethnicities = {
+			30 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_ginger
+			20 = caucasian_northern_brown_hair
+			10 = caucasian_brown_hair
+			10 = caucasian_northern_dark_hair
+			5 = caucasian_dark_hair
 		}
 	}
 }

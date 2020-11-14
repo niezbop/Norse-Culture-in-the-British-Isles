@@ -14,3 +14,16 @@ custom_northeod_british_isles {
 		d_northumberland d_york d_lancaster d_hereford d_norfolk d_bedford d_canterbury
     }
 }
+
+custom_norse_brythonic_british_isles {
+    duchies = {
+		#Wales
+		d_gwynedd d_powys d_deheubarth
+		#Scotland
+		d_the_isles d_galloway d_lothian d_albany
+		#Cornwall
+		d_cornwall d_somerset d_gloucester
+		#Brittany
+		d_brittany
+    }
+}
