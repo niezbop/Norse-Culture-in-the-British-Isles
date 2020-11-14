@@ -925,9 +925,7 @@
 			"dynn_Ulfeldt"
 			"dynn_Bang"
 			"dynn_Toll"
-			"dynn_Eirikson"
 			"dynn_Sognsdal"
-			"dynn_Gunarrson"
 			"dynn_Juel"
 			"dynn_Beorming"
 			"dynn_Randolph"
@@ -967,9 +965,7 @@
 			"dynn_Ulfeldt"
 			"dynn_Bang"
 			"dynn_Toll"
-			"dynn_Eirikson"
 			"dynn_Sognsdal"
-			"dynn_Gunarrson"
 			"dynn_Juel"
 			"dynn_Beorming"
 			"dynn_Randolph"
@@ -991,8 +987,8 @@
 		
 		dynasty_of_location_prefix = "dynnp_af"
 		
-		patronym_suffix_male = "dynnpat_suf_son"
-		patronym_suffix_female = "dynnpat_suf_sdatter"
+		patronym_suffix_male = "dynnpat_suf_sen"
+		patronym_suffix_female = "dynnpat_suf_sdotter"
 		always_use_patronym = yes	
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -1268,7 +1264,7 @@
 		dynasty_of_location_prefix = "dynnp_av"
 		
 		patronym_suffix_male = "dynnpat_suf_sson"
-		patronym_suffix_female = "dynnpat_suf_sdatter"
+		patronym_suffix_female = "dynnpat_suf_sdohtar"
 		always_use_patronym = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
@@ -1535,10 +1531,10 @@
 			Ylva
 		}
 		
-		dynasty_of_location_prefix = "dynnp_av"
+		dynasty_of_location_prefix = "dynnp_ap"
 		
-		patronym_suffix_male = "dynnpat_suf_sson"
-		patronym_suffix_female = "dynnpat_suf_sdatter"
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_sdochter"
 		always_use_patronym = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
