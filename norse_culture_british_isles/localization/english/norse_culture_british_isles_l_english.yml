@@ -65,8 +65,8 @@
  norse_culture_british_isles.3001.a:0 "To new friends and new beginnings!"
 
  norse_culture_british_isles.3002.t:0 "$norse_culture_british_isles.3001.t$"
- norse_culture_british_isles.3002.desc:0 "The land of the Brythons have long been the home of our Norse ancestors, and our settlements are now spread all over the coasts of Ireland and Scotland. The local folk has grown accustomed to us and in their tongue, we are Gall-Gaels, the foreigners Gaels. Indeed, it is true that we are no longer the same as our fathers that left Scandinavia as the land we settled has changed us the same way we changed it.\n\nLet us acknowledge what we have become."
- norse_culture_british_isles.3002.a:0 "Neither Norse nor Brythonic fully, we are Norse-Brythons!"
+ norse_culture_british_isles.3002.desc:0 "Through conquest and pillage we have established ourselves as masters of the land of the Brythons. Through trade and alliances, we have solidified our rule over the locals. Our peoples now live in peace, and the effects of this cohabitation can be felt as it is becoming harder and harder to tell them apart. With the heritage our fathers and of this land, let us claim our new identity with pride."
+ norse_culture_british_isles.3002.a:0 "We are Norse-Brythons!"
 
  norse_culture_british_isles.3003.t:0 "$norse_culture_british_isles.3001.t$"
  norse_culture_british_isles.3003.desc:0 "A group of Norse settlers hailing from Scandinavia have settled in the lands of the Brythons, making a new home for themselves there.\n\nTheir leader, [norse_brythonic_founder.GetTitledFirstName], has decreed that [norse_brythonic_founder.GetHerHis] people shall adopt several local customs and traditions to ensuring they will thrive in this new land."
