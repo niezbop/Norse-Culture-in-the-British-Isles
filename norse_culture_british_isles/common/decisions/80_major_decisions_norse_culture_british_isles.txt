@@ -338,3 +338,172 @@ establish_norse_gaelic_culture_decision = {
 		base = 100
 	}
 }
+
+establish_norse_brythonic_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+
+	ai_check_interval = 36
+
+	desc = establish_norse_brythonic_culture_decision_desc
+	selection_tooltip = establish_norse_brythonic_culture_decision_tooltip
+
+	is_shown = {
+		is_landed = yes
+		has_culture_group = culture_group:north_germanic_group
+		capital_province = { geographical_region = custom_norse_brythonic_british_isles }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:establish_norse_brythonic_culture_decision
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		custom_description = {
+			text = capital_in_brythonic_region_region_tooltip
+			capital_province = { geographical_region = custom_norse_brythonic_british_isles }
+		}
+		custom_description = {
+			text = one_north_germanic_counties_in_brythonic_region_tooltip
+			any_held_title {
+				tier = tier_county
+				title_province = { geographical_region = custom_norse_brythonic_british_isles }
+				culture_group = culture_group:north_germanic_group
+			}
+		}
+		OR = {
+			completely_controls = title:d_gwynedd
+			completely_controls = title:d_deheubarth
+			completely_controls = title:d_cornwall
+			completely_controls = title:d_galloway
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_at_war = no
+		is_available_adult = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			# Generate a list of counties we want to flip to the new culture.
+			every_sub_realm_title = {
+				limit = {
+					tier = tier_county
+				}
+				if = {
+					limit = {
+						title_province = { geographical_region = custom_norse_brythonic_british_isles }
+						OR = {
+							culture_group = culture_group:north_germanic_group
+							culture_group = culture_group:brythonic_group
+						}
+					}
+					add_to_list = norse_brythonic_counties
+				}
+			}
+
+			save_scope_as = norse_brythonic_founder
+			culture = { save_scope_as = old_culture }
+
+			# Perform the culture flip.
+			every_in_list = {
+				list = norse_brythonic_counties
+				merge_culture_groups_in_region_effect = {
+					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
+					OLD_CULTURE_GROUP_2 = culture_group:brythonic_group
+					NEW_CULTURE = culture:norse_brythonic
+					REGION = custom_norse_brythonic_british_isles
+				}
+			}
+
+			# Send all players in the game a notification event about the flip.
+			culture:norse_brythonic = {
+				get_all_innovations_from = scope:old_culture
+				get_all_innovations_from = culture:welsh
+				get_all_innovations_from = culture:cumbrian
+				save_scope_as = new_culture
+			}
+			every_player = {
+				if = {
+					limit = {
+						NOT = { this = root }
+						OR = {
+							culture_group = culture_group:north_germanic_group
+							culture_group = culture_group:brythonic_group
+						}
+						exists = capital_province
+						capital_province = { geographical_region = custom_norse_brythonic_british_isles }
+					}
+					trigger_event = norse_culture_british_isles.3001
+				}
+				else_if = {
+					limit = { this = root }
+					trigger_event = norse_culture_british_isles.3002
+				}
+				else_if = {
+					limit = {
+						NOT = { this = root }
+						exists = capital_province
+						capital_province = { geographical_region = world_europe_west_britannia }
+					}
+					trigger_event = norse_culture_british_isles.3003
+				}
+			}
+		}
+
+		# Player changes culture
+		set_culture = culture:norse_brythonic
+		add_character_flag = converted_culture_this_lifetime
+		hidden_effect = {
+			every_in_list = {
+				list = norse_brythonic_counties
+				limit = {
+					holder.capital_county = { is_in_list = norse_brythonic_counties }
+				}
+				holder = {
+					add_to_list = mass_melting_pot_list
+					every_courtier = { add_to_list = mass_melting_pot_list }
+					every_courtier_away = { add_to_list = mass_melting_pot_list }
+				}
+				every_in_list = {
+					list = mass_melting_pot_list
+					limit = {
+						OR = {
+							culture = scope:old_culture
+							culture_group = culture_group:brythonic_group
+						}
+					}
+					set_culture = culture:norse_brythonic
+				}
+			}
+		}
+
+		# Summary of above hidden effects to inform players of the decision's impact.
+		show_as_tooltip = {
+			custom_tooltip = establish_norse_brythonic_culture_decision_effect.tt
+			culture:norse_brythonic = {
+				get_all_innovations_from = scope:old_culture
+				get_all_innovations_from = culture:welsh
+				get_all_innovations_from = culture:cumbrian
+			}
+		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:establish_norse_brythonic_culture_decision
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
