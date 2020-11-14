@@ -40,12 +40,12 @@ Any mod that changes [i]00_landed_titles.txt[/i] can be loaded after this mod sa
 
 This mod is [b]Ironman Compatible[/b] but will [b]disable Achievements[/b].
 
-[h1]Languages supported[/h2]
+[h1]Languages supported[/h1]
 
 This mod supports:
 [list]
 [*] [b]English[/b]
-[*] b]English[/b]
+[*] [b]French[/b]
 [/list]
 
 If you want to add [b]your language[/b] to this mod, please get in touch.
