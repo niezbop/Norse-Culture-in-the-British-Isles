@@ -44,6 +44,12 @@ Similarly to the Norse influence in Gaelic parts of Britannia, the Norse were pr
 
 The word _Northeod_ itself, is an interpretation of an old germanic word [norðþéod](https://germanic.ge/en/ang/word/nor%C3%BE-%C3%BE%C3%A9od/), meaning "northern people, the northerners". It is in no way whatsoever historically relevant.
 
+## Norse-Brythonic
+
+The least historically accurate of the three cultures added, the Norse-Brythonic culture is almost completly fictional. There are few documented cases of Norse settlements in the historically Brythonic parts of the British Isles, and there were too few interactions between those cultures for a new culture to emerge.
+
+However, I believe it is reasonnable to believe that a situation similar to what happened for the Gaels could have happened for the Brythons, should the Viking invasion of Wales, Cornwall, Galloway or such had been more focused and had led to more cohabitation.
+
 # Links
 
 This project can be found on [Github](https://github.com/niezbop/Norse-Culture-in-the-British-Isles)
