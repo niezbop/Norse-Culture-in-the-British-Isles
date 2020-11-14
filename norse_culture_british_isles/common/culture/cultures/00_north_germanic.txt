@@ -976,15 +976,17 @@
 		}
 		
 		male_names = {
-			Abel Anders Anund ArnbjOErn Asger Balder Benedikt Beorhthelm Beorhtnoth BjOErn Christian Christoffer Eadulf Edvard Einar Erik Ernst Esben Fredrik Frej Frode Glum Gnupa Gorm Gotfred Gregers Grim Gunnar
-			HA_rik Halfdan Halvor Hans Harald Helge Hemming Henrik Hjalmar Holger Ingolf JO_rgen JO_rn Jakob Jens Joakim Johann Karl Knud
-			Kristian Leif Lennart Ludvig Malthe Mats Mikkel Mogens Niels Odd Onlaf Ordgar Oluf Peder Poul PridbjO_rn Ragnar Ragnvald Rolf Rune RO_rik Severin Sigfred Sigurd
-			Sivard Steinn Svend SA_mund Thorolf Thorvald Torben TorbjOErn Tord Torfinn Torgils Tostig Ture Ubbe Uffe Ulf Valdemar Valentin Vilfred Yngvar
+			Abel Alfr Anders Arncytel Arngrimr AsbjO_rn Asger Balder Beorhtric Beorhtsige BjO_rn Bo Bragi Cearl Christian Cynewulf Dan Dyre E_lle E_thelberht
+			E_thelrE_d Eadsige EaldrE_d Ecgfrith Eilif Einar Eskild Falki Fredrik Frirek Frode Gnupa Godwine Gorm Gregers Grim GuT_friT_ Gudleik Gunnar HA_rik
+			HE_steinn Halfdan Halvor Hans Harald Helgi Hemming Henrik Hereberht Hjalmar Holger Hrolfr Ingemar Ingolf JO_rgen JO_rn Jakob Joakim Johann Kjartan
+			Knud Kol Lennart Ludvig Malthe Mikkel Niels Odd Olafr Oscytel Osric Osulf PAAl Peder Poul PridbjO_rn RO_gnvaldr RO_rik Ragnar Refil
+			Rune SA_mund Scule Sigtryg Sigurd Sivard Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Sverker T_orsteinn Thorolf Tjudmund TorbjOErn Tord Torfinn Torgils Trond
+			Tryggve Uffe Ulf Valdemar Vilfred Wistan Yngvar
 		}
 		female_names = {
-			Agnethe Anna Asta Benedikte Beorhtwaru Beorngyth Birgitta Bodil Cecilia Christina Dagmar Dorothea Elisabeth Ellinor Emilie Erika Ester Estrid Frederikke Freja
-			Grethe Gudrun Gunhild Gyda Helena Helga Ida Ingeborg Ingegerd Ingrid Johanne Jutta Karin Karoline Katarina Katrine Kirsten Klara Lise Luitgard Lykke
-			Magdalene Maren Margrethe Maria Martha Ragnfrid Ragnhild Rikissa Runa Sanna Signe Sigrid Silje Sofie Svanhild Thyra Tora Thordis Vigdis Wulfrun A_se
+			A_se A_shild Agnethe Anna Asta Benedikte Beorngyth Bodil Cecilie Christina Dagmar Dorothea E_bba E_lfwynn E_thelthryth Ealdgyth Ecgwyn Emilie Freja Gjertrud
+			GloT_ Grethe Grima Gunhilda Gyda Hafrid Helena Heregyth Holmfrid Ida Ingfrid IngibjO_rg IngjerT_r Ingrid Johanne Jutta Karoline Katrine Kirsten Klara
+			Lise Lykke Maren Margrethe Maria Martha Ragna Ragnfrid Rikissa Runa SE_thryth Sanna Signe Sigrid Svanhild Thordis Vigdis Wulfrun Yrsa
 		}
 		
 		dynasty_of_location_prefix = "dynnp_af"
@@ -1247,15 +1249,20 @@
 		}
 		
 		male_names = {
-			AdomnA_n Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BA_rd BjOErn ConallA_n Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
-			Grim Gudbrand Gudleik Gudmund GudrOEd Gunnar Guttorm Haldor Halfdan Halkjell Harald Helge HA_kon HA_vard Inge Ivar Jon KA_re Kolbein Lodin
-			Magnus Odd Ogmund Olav Orm Ossor Ottar PAAl Ragnar Ragnvald Rolf Sigurd Skjalg Skofte Skule Svein Sverre SA_mund TorbjOErn Tord Tore
-			Torbrand Torfinn Torgeir Torgil
-			Tormod Torolf Torstein Trond Tryggve Ulv Vigleik A_le A_mund O_lver O_ystein
+			A_ke A_le A_mund Abner Ailgel Ale Alfr Anders AnlO_n Anundr ArnbjO_rn Arne Arnfast Arnfinn Arnkjell Arnmod Arnvid AsbjO_rn Aslak Audun
+			Augaire AugustI_n BA_rd BE_oA_ed Balder Barid BeccA_n Bengt Bersi BjOErn Bo BrO_en CU_A_n Cailean Cathal Conaing Conchobar Condla Congalach Cuindles
+			Dag Dan DaniE_l Drystan DubA_ed Dubhghall Dyre Echuid Eigil Eilif Einar Eirikr Eochu ErcA_ed Erlend Erling Eskild Eystein FA_elchad FI_ngin
+			FI_nsnechta Faste Feirgil Filip Finn Finnsnechtae Fintan Folki Fothud Fredrik Freyr Frirek FroT_i Gilla-ComgA_in Grim GuT_friT_ Guaire Gudbrand Gudleik Gudmund
+			GudrOEd Gunnar Guttorm HA_kon HA_vard HE_steinn Haldor Halfdan Halkjell Haraldr Haukr Helge Hemming Hjalmar Holmger HrO_rekr Hrafn Hrane Inge Ingjald
+			Ivar Jedvard Jon KA_re Karl Kettil Kettilmund Kjartan Klas Knut Kol Kolbein LO_chI_ne LO_eguire Lodin MA_el-Coluim MA_el-MO_rda MU_adA_n Magnus Mats
+			Muiredach Natfraich Nechtan O_lver Odd Ogmund Olav Ormr Ossor Ottar PAAl PA_traic Petair Ragnarr Ragnvald Refil Refr Rolf SA_mund ScandlA_n
+			SigbjO_rn Sigurd Skjalg Skofte Skuli StarkaT_r Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Suni Svein Sverker Sverre TO_la T_ordr TorbjOErn Torbrand Tore
+			Torfinn Torgeir Torgil Tormod Torolf Torstein Toste Trond Tryggve Tyke Ualgarg Ualtar Ulv Vagn Vigleik Yngvar
 		}
 		female_names = {
-			Anna Astrid Brigida Cecilia Eldrid Freja Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug IngebjO_rg Ingjerd Ingrid Jorunn
-			Karin Kristina Margrete Maria Martha Ragna Ragnfrid Ragnhild Rannveig Sigrid SnO_frid Sunniva Svanhild Thora Thorborg Thordis A_se A_shild A_sta
+			A_ine A_se A_shild A_sta Anna Astrid BE_binn Birgitta BjO_rg Bodil CaI_ntigern Cecilia Conchenn CrI_nO_ch Cumman Der-bForgaill Dub-Dil Dubchoblaig Eldrid Elisabet
+			EllbrI_g FI_ne Finneacht Freja Freydi_s Gjertrud Gnathnad Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug I_te IngebjO_rg Ingjerd Ingrid Jorunn Karin
+			Kristina Maer Margrete Maria Martha O_rlaith Ragna Ragnfrid Ragnhild Rannveig Rikissa Sigrid SnO_frid Sunniva Svanhild T_ordis T_yra Tailltiu Thora Thorborg
 		}
 		
 		dynasty_of_location_prefix = "dynnp_av"
