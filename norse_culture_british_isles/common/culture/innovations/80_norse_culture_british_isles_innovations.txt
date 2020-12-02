@@ -1,0 +1,27 @@
+﻿innovation_hird = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+
+	potential = {
+		OR = {
+			# North Germanic
+			this = culture:norse
+			this = culture:swedish
+			this = culture:norwegian
+			this = culture:danish
+			this = culture:northeod
+			this = culture:norse_gaelic
+			this = culture:norse_brythonic
+
+			# West Germanic
+			this = culture:anglo_saxon
+			this = culture:old_saxon
+			this = culture:frisian
+		}
+	}
+
+	unlock_maa = huscarl
+
+	flag = global_maa
+}
