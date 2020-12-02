@@ -1447,8 +1447,10 @@ e_britannia = {
 			ai_primary_priority = {
 				if = {
 					limit = {
-						culture = culture:norse
-						culture = culture:northeod
+						OR = {
+							culture = culture:norse
+							culture = culture:northeod
+						}
 					}
 					add = @better_than_the_alternatives_score
 				}
@@ -2404,16 +2406,20 @@ e_britannia = {
 				limit = {
 					is_ai = yes
 				}
-				has_culture_group = culture_group:brythonic_group
-				has_culture = culture:norse_brythonic
+				OR = {
+					has_culture = culture:norse_brythonic
+					has_culture_group = culture_group:brythonic_group
+				}
 			}
 		}
 		
 		ai_primary_priority = {
 			if = {
 				limit = {
-					culture = culture:welsh
-					culture = culture:norse_brythonic
+					OR = {
+						culture = culture:welsh
+						culture = culture:norse_brythonic
+					}
 				}
 				add = @correct_culture_primary_score
 			}
@@ -2939,8 +2945,10 @@ e_britannia = {
 			}
 			if = {
 				limit = {
-					culture = culture:irish
-					culture = culture:norse_brythonic
+					OR = {
+						culture = culture:irish
+						culture = culture:norse_brythonic
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -3184,10 +3192,12 @@ e_britannia = {
 				}
 				if = {
 					limit = {
-						culture = culture:welsh
-						culture = culture:cornish
-						culture = culture:breton
-						culture = culture:norse_brythonic
+						OR = {
+							culture = culture:welsh
+							culture = culture:cornish
+							culture = culture:breton
+							culture = culture:norse_brythonic
+						}
 					}
 					add = @better_than_the_alternatives_score
 				}
@@ -3887,8 +3897,10 @@ e_britannia = {
 				limit = {
 					is_ai = yes
 				}
-				has_culture_group = culture_group:goidelic_group
-				has_culture = culture:norse_gaelic
+				OR = {
+					has_culture = culture:norse_gaelic
+					has_culture_group = culture_group:goidelic_group
+				}
 			}
 		}
 		
@@ -3901,8 +3913,10 @@ e_britannia = {
 			}
 			if = {
 				limit = {
-					culture = culture:gaelic
-					culture = culture:norse_gaelic
+					OR = {
+						culture = culture:gaelic
+						culture = culture:norse_gaelic
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -4484,8 +4498,10 @@ e_britannia = {
 				limit = {
 					is_ai = yes
 				}
-				has_culture_group = culture_group:brythonic_group
-				has_culture = culture:norse_brythonic
+				OR = {
+					has_culture_group = culture_group:brythonic_group
+					has_culture = culture:norse_brythonic
+				}
 			}
 		}
 		
