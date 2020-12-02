@@ -1,9 +1,9 @@
-version="1.0.1"
+version="1.0.2"
 tags={
 	"Alternative History"
 	"Culture"
 	"Fixes"
 }
 name="More Cultural Names + Norse Cultures in the British Isles"
-supported_version="1.1.3"
+supported_version="1.2.*"
 path="/Users/paulniezborala/Documents/Paradox Interactive/Crusader Kings III/mod/more_cultural_names_ncbi"
