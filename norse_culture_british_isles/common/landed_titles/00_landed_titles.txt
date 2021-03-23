@@ -1439,6 +1439,12 @@ e_britannia = {
 					color2 = { 255 255 255 }
 				}
 			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:northeod }
+					add = @correct_culture_primary_score
+				}
+			}
 		}
 		
 		d_york = {
@@ -1470,6 +1476,11 @@ e_britannia = {
 					limit = {
 						culture = culture:norse
 					}
+					add = @better_than_the_alternatives_score
+				}
+				if = {
+					limit = { culture = culture:northeod }
+					add = @correct_culture_primary_score
 					add = @better_than_the_alternatives_score
 				}
 			}
@@ -1775,6 +1786,12 @@ e_britannia = {
 						norwegian = cn_linn
 						lochlannach = cn_linn
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:northeod }
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -2334,6 +2351,10 @@ e_britannia = {
 					}
 					add = @correct_culture_primary_score
 				}
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @better_than_the_alternatives_score
+				}
 			}
 			
 			c_devon = {
@@ -2606,6 +2627,13 @@ e_britannia = {
 						norman = cn_ruthin
 						english = cn_ruthin
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @correct_culture_primary_score
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -2924,6 +2952,12 @@ e_britannia = {
 					#Talgarth is actually the modern & historic name in both English & Welsh, albeit accented in Old Welsh.
 				}
 			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @correct_culture_primary_score
+				}
+			}
 		}
 	}
 	
@@ -3156,6 +3190,14 @@ e_britannia = {
 						norwegian = cn_hramsa
 						lochlannach = cn_hramsa
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = {
+						OR = { culture = culture:northeod culture = culture:norse_gaelic culture = culture:norse_brythonic }
+					}
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -3503,6 +3545,13 @@ e_britannia = {
 						norwegian = cn_mylarsund
 						lochlannach = cn_mylarsund
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @correct_culture_primary_score
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -4133,6 +4182,12 @@ e_britannia = {
 						norwegian = cn_ulfkelsfjordr
 						lochlannach = cn_ulfkelsfjordr
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @correct_culture_primary_score
 				}
 			}
 		}
@@ -21141,6 +21196,12 @@ e_scandinavia = {
 						welsh = cn_bachwyon_mawrty
 						irish = cn_batin_mortaigh
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
