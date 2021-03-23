@@ -815,6 +815,9 @@ e_britannia = {
 						pictish = cn_din_guarie
 						cornish = cn_din_guarie
 						breton = cn_din_guarie
+						northeod = cn_bamborg
+						norse_gaelic = cn_bamborg
+						norse_brythonic = cn_bamborg
 					}
 				}
 				b_rothbury = {
@@ -862,6 +865,9 @@ e_britannia = {
 						occitan = cn_duresm
 						norse = cn_ulfreksfjordr
 						norwegian = cn_ulfreksfjordr
+						northeod = cn_ulfreksfjordr
+						norse_gaelic = cn_ulfreksfjordr
+						norse_brythonic = cn_ulfreksfjordr
 					}
 					color = { 255 15 15 }
 					color2 = { 255 255 255 }
@@ -991,6 +997,9 @@ e_britannia = {
 					danish = cn_djuraby
 					swedish = cn_djuraby
 					norse = cn_djuraby
+					northeod = cn_djuraby
+					norse_gaelic = cn_djuraby
+					norse_brythonic = cn_djuraby
 				}
 				b_derby = {
 					province = 1621
@@ -1001,6 +1010,9 @@ e_britannia = {
 						danish = cn_djuraby
 						swedish = cn_djuraby
 						norse = cn_djuraby
+						northeod = cn_djuraby
+						norse_gaelic = cn_djuraby
+						norse_brythonic = cn_djuraby
 					}
 				}
 				b_chesterfield = {
@@ -1030,6 +1042,9 @@ e_britannia = {
 				cumbrian = cn_deifr
 				welsh = cn_deifr
 				pictish = cn_deifr
+				northeod = cn_jorvik
+				norse_gaelic = cn_jorvik
+				norse_brythonic = cn_jorvik
 			}
 			ai_primary_priority = {
 				if = {
@@ -1062,6 +1077,9 @@ e_britannia = {
 						cumbrian = cn_efrog
 						welsh = cn_efrog
 						pictish = cn_efrog
+						northeod = cn_jorvik
+						norse_gaelic = cn_jorvik
+						norse_brythonic = cn_jorvik
 					}
 				}
 				b_scarborough = {
@@ -1189,16 +1207,34 @@ e_britannia = {
 			color = { 200 90 0 }
 			color2 = { 255 255 255 }
 			capital = c_norfolk
-			cultural_names = { norse = cn_jarnamoda norwegian = cn_jarnamoda }
+			cultural_names = {
+				norse = cn_jarnamoda
+				norwegian = cn_jarnamoda
+				northeod = cn_jarnamoda
+				norse_gaelic = cn_jarnamoda
+				norse_brythonic = cn_jarnamoda
+			}
 			c_norfolk = {
 				color = { 210 100 0 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_jarnamoda norwegian = cn_jarnamoda }
+				cultural_names = {
+					norse = cn_jarnamoda
+					norwegian = cn_jarnamoda
+					northeod = cn_jarnamoda
+					norse_gaelic = cn_jarnamoda
+					norse_brythonic = cn_jarnamoda
+				}
 				b_norwich = {
 					province = 1522
 					color = { 210 100 0 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_jarnamoda norwegian = cn_jarnamoda }
+					cultural_names = {
+						norse = cn_jarnamoda
+						norwegian = cn_jarnamoda
+						northeod = cn_jarnamoda
+						norse_gaelic = cn_jarnamoda
+						norse_brythonic = cn_jarnamoda
+					}
 				}
 				b_thetford = {
 					province = 1523
@@ -1262,7 +1298,13 @@ e_britannia = {
 					province = 1537
 					color = { 205 145 5 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_linn norwegian = cn_linn }
+					cultural_names = {
+						norse = cn_linn
+						norwegian = cn_linn
+						northeod = cn_linn
+						norse_gaelic = cn_linn
+						norse_brythonic = cn_linn
+					}
 				}
 			}
 		}
@@ -2187,22 +2229,46 @@ e_britannia = {
 			color = { 180 90 0 }
 			color2 = { 255 255 255 }
 			capital = c_isle_of_man
-			cultural_names = { norse = cn_mon norwegian = cn_mon }
+			cultural_names = {
+				norse = cn_mon
+				norwegian = cn_mon
+				northeod = cn_mon
+				norse_gaelic = cn_mon
+				norse_brythonic = cn_mon
+			}
 			c_isle_of_man = {
 				color = { 180 90 0 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_mon norwegian = cn_mon }
+				cultural_names = {
+					norse = cn_mon
+					norwegian = cn_mon
+					northeod = cn_mon
+					norse_gaelic = cn_mon
+					norse_brythonic = cn_mon
+				}
 				b_castletown = {
 					province = 1698
 					color = { 180 90 0 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_holmatun norwegian = cn_holmatun }
+					cultural_names = {
+						norse = cn_holmatun
+						norwegian = cn_holmatun
+						northeod = cn_holmatun
+						norse_gaelic = cn_holmatun
+						norse_brythonic = cn_holmatun
+					}
 				}
 				b_ramsey = {
 					province = 1699
 					color = { 180 90 0 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_hramsa norwegian = cn_hramsa }
+					cultural_names = {
+						norse = cn_hramsa
+						norwegian = cn_hramsa
+						northeod = cn_hramsa
+						norse_gaelic = cn_hramsa
+						norse_brythonic = cn_hramsa
+					}
 				}
 			}
 		}
@@ -2215,6 +2281,9 @@ e_britannia = {
 				irish = cn_galloway
 				norse = cn_galvei
 				norwegian = cn_galvei
+				northeod = cn_galvei
+				norse_gaelic = cn_galvei
+				norse_brythonic = cn_galvei
 			}
 			ai_primary_priority = {
 				if = {
@@ -2274,6 +2343,9 @@ e_britannia = {
 					cornish = cn_galwyddel
 					norse = cn_galvei
 					norwegian = cn_galvei
+					northeod = cn_galvei
+					norse_gaelic = cn_galvei
+					norse_brythonic = cn_galvei
 				}
 				color = { 230 120 65 }
 				color2 = { 255 255 255 }
@@ -2353,80 +2425,164 @@ e_britannia = {
 			color2 = { 255 255 255 }
 			capital = c_inner_hebrides
 			definite_form = yes
-			cultural_names = { norse = cn_sudreyjar norwegian = cn_sudreyjar }
+			cultural_names = {
+				norse = cn_sudreyjar
+				norwegian = cn_sudreyjar
+				northeod = cn_sudreyjar
+				norse_gaelic = cn_sudreyjar
+				norse_brythonic = cn_sudreyjar
+			}
 			c_inner_hebrides = {
 				color = { 255 200 10 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_innri_sudreyjar norwegian = cn_innri_sudreyjar }
+				cultural_names = {
+					norse = cn_innri_sudreyjar
+					norwegian = cn_innri_sudreyjar
+					northeod = cn_innri_sudreyjar
+					norse_gaelic = cn_innri_sudreyjar
+					norse_brythonic = cn_innri_sudreyjar
+				}
 				b_islay = {
 					province = 1689
 					color = { 255 200 10 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_il norwegian = cn_il }
+					cultural_names = {
+						norse = cn_il
+						norwegian = cn_il
+						northeod = cn_il
+						norse_gaelic = cn_il
+						norse_brythonic = cn_il
+					}
 				}
 				b_arran = {
 					province = 1690
 					color = { 255 200 10 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_hereyjar norwegian = cn_hereyjar }
+					cultural_names = {
+						norse = cn_hereyjar
+						norwegian = cn_hereyjar
+						northeod = cn_hereyjar
+						norse_gaelic = cn_hereyjar
+						norse_brythonic = cn_hereyjar
+					}
 				}
 				b_mull = {
 					province = 1691
 					color = { 255 200 10 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_myl norwegian = cn_myl }
+					cultural_names = {
+						norse = cn_myl
+						norwegian = cn_myl
+						northeod = cn_myl
+						norse_gaelic = cn_myl
+						norse_brythonic = cn_myl
+					}
 				}
 			}
 			c_outer_hebrides = {
 				color = { 255 225 55 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_ytri_sudreyjar norwegian = cn_ytri_sudreyjar }
+				cultural_names = {
+					norse = cn_ytri_sudreyjar
+					norwegian = cn_ytri_sudreyjar
+					northeod = cn_ytri_sudreyjar
+					norse_gaelic = cn_ytri_sudreyjar
+					norse_brythonic = cn_ytri_sudreyjar
+				}
 				b_skye = {
 					province = 1692
 					color = { 255 225 55 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_skid norwegian = cn_skid }
+					cultural_names = {
+						norse = cn_skid
+						norwegian = cn_skid
+						northeod = cn_skid
+						norse_gaelic = cn_skid
+						norse_brythonic = cn_skid
+					}
 				}
 				b_lewis = {
 					province = 1693
 					color = { 255 225 55 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_ljodhus norwegian = cn_ljodhus }
+					cultural_names = {
+						norse = cn_ljodhus
+						norwegian = cn_ljodhus
+						northeod = cn_ljodhus
+						norse_gaelic = cn_ljodhus
+						norse_brythonic = cn_ljodhus
+					}
 				}
 				b_the_uists = {
 					province = 1694
 					color = { 255 225 55 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_vist norwegian = cn_vist }
+					cultural_names = {
+						norse = cn_vist
+						norwegian = cn_vist
+						northeod = cn_vist
+						norse_gaelic = cn_vist
+						norse_brythonic = cn_vist
+					}
 				}
 			}
 			c_argyll = {
 				color = { 215 200 15 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_argjall norwegian = cn_argjall }
+				cultural_names = {
+					norse = cn_argjall
+					norwegian = cn_argjall
+					northeod = cn_argjall
+					norse_gaelic = cn_argjall
+					norse_brythonic = cn_argjall
+				}
 				b_kilmarten = {
 					province = 1700
 					color = { 215 200 15 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_kjarbarey norwegian = cn_kjarbarey }
+					cultural_names = {
+						norse = cn_kjarbarey
+						norwegian = cn_kjarbarey
+						northeod = cn_kjarbarey
+						norse_gaelic = cn_kjarbarey
+						norse_brythonic = cn_kjarbarey
+					}
 				}
 				b_glencoe = {
 					province = 1701
 					color = { 215 200 15 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_dysjarstadr norwegian = cn_dysjarstadr }
+					cultural_names = {
+						norse = cn_dysjarstadr
+						norwegian = cn_dysjarstadr
+						northeod = cn_dysjarstadr
+						norse_gaelic = cn_dysjarstadr
+						norse_brythonic = cn_dysjarstadr
+					}
 				}
 				b_lomond = {
 					province = 1702
 					color = { 215 200 15 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_lokolofni norwegian = cn_lokolofni }
+					cultural_names = {
+						norse = cn_lokolofni
+						norwegian = cn_lokolofni
+						northeod = cn_lokolofni
+						norse_gaelic = cn_lokolofni
+						norse_brythonic = cn_lokolofni
+					}
 				}
 				b_ardnamurchon = {
 					province = 35
 					color = { 215 200 15 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_mylarsund norwegian = cn_mylarsund }
+					cultural_names = {
+						norse = cn_mylarsund
+						norwegian = cn_mylarsund
+						northeod = cn_mylarsund
+						norse_gaelic = cn_mylarsund
+						norse_brythonic = cn_mylarsund
+					}
 				}
 			}
 		}
@@ -2540,7 +2696,13 @@ e_britannia = {
 			color = { 255 180 60 }
 			color2 = { 255 255 255 }
 			capital = c_moray
-			cultural_names = { norse = cn_katanes norwegian = cn_katanes }
+			cultural_names = {
+				norse = cn_katanes
+				norwegian = cn_katanes
+				northeod = cn_katanes
+				norse_gaelic = cn_katanes
+				norse_brythonic = cn_katanes
+			}
 			c_moray = {
 				color = { 255 180 60 }
 				color2 = { 255 255 255 }
@@ -2563,7 +2725,13 @@ e_britannia = {
 			c_ross = {
 				color = { 250 210 85 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_ros norwegian = cn_ros }
+				cultural_names = {
+					norse = cn_ros
+					norwegian = cn_ros
+					northeod = cn_ros
+					norse_gaelic = cn_ros
+					norse_brythonic = cn_ros
+				}
 				b_dingwall = {
 					province = 1703
 					color = { 250 210 85 }
@@ -2607,18 +2775,36 @@ e_britannia = {
 			c_sutherland = {
 				color = { 255 205 115 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_sudrland norwegian = cn_sudrland }
+				cultural_names = {
+					norse = cn_sudrland
+					norwegian = cn_sudrland
+					northeod = cn_sudrland
+					norse_gaelic = cn_sudrland
+					norse_brythonic = cn_sudrland
+				}
 				b_dornoch = {
 					province = 1705
 					color = { 255 205 115 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_hjalmundalr norwegian = cn_hjalmundalr }
+					cultural_names = {
+						norse = cn_hjalmundalr
+						norwegian = cn_hjalmundalr
+						northeod = cn_hjalmundalr
+						norse_gaelic = cn_hjalmundalr
+						norse_brythonic = cn_hjalmundalr
+					}
 				}
 				b_durness = {
 					province = 1706
 					color = { 255 205 115 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_dyrnes norwegian = cn_dyrnes }
+					cultural_names = {
+						norse = cn_dyrnes
+						norwegian = cn_dyrnes
+						northeod = cn_dyrnes
+						norse_gaelic = cn_dyrnes
+						norse_brythonic = cn_dyrnes
+					}
 				}
 				b_assynt = {
 					province = 8779
@@ -2629,18 +2815,36 @@ e_britannia = {
 			c_caithness = {
 				color = { 240 220 145 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_c_katanes norwegian = cn_c_katanes }
+				cultural_names = {
+					norse = cn_c_katanes
+					norwegian = cn_c_katanes
+					northeod = cn_c_katanes
+					norse_gaelic = cn_c_katanes
+					norse_brythonic = cn_c_katanes
+				}
 				b_thurso = {
 					province = 1707
 					color = { 240 220 145 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_thorsa norwegian = cn_thorsa }
+					cultural_names = {
+						norse = cn_thorsa
+						norwegian = cn_thorsa
+						northeod = cn_thorsa
+						norse_gaelic = cn_thorsa
+						norse_brythonic = cn_thorsa
+					}
 				}
 				b_wick = {
 					province = 1708
 					color = { 240 220 145 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_vik norwegian = cn_vik }
+					cultural_names = {
+						norse = cn_vik
+						norwegian = cn_vik
+						northeod = cn_vik
+						norse_gaelic = cn_vik
+						norse_brythonic = cn_vik
+					}
 				}
 			}
 			c_inverness = {
@@ -2706,6 +2910,9 @@ e_britannia = {
 					norwegian = cn_dyflinn
 					irish = cn_dubhlinn
 					welsh = cn_dulyn
+					northeod = cn_dyflinn
+					norse_gaelic = cn_dyflinn
+					norse_brythonic = cn_dyflinn
 				}
 				b_dublin = {
 					province = 28
@@ -2716,6 +2923,9 @@ e_britannia = {
 						norwegian = cn_dyflinn
 						irish = cn_dubhlinn
 						welsh = cn_dulyn
+						northeod = cn_dyflinn
+						norse_gaelic = cn_dyflinn
+						norse_brythonic = cn_dyflinn
 					}
 				}
 				b_wicklow = {
@@ -2780,6 +2990,9 @@ e_britannia = {
 						danish = cn_strangfjord
 						norse = cn_strangfjordr
 						irish = cn_dun_padraig
+						northeod = cn_strangfjordr
+						norse_gaelic = cn_strangfjordr
+						norse_brythonic = cn_strangfjordr
 					}
 				}
 				b_slemish = {
@@ -2812,6 +3025,9 @@ e_britannia = {
 						danish = cn_kerlingfjord
 						norse = cn_kerlingfrjordr
 						irish = cn_dun_dealgan
+						northeod = cn_kerlingfrjordr
+						norse_gaelic = cn_kerlingfrjordr
+						norse_brythonic = cn_kerlingfrjordr
 					}
 				}
 				b_armagh = {
@@ -2840,7 +3056,13 @@ e_britannia = {
 			c_ailech = {
 				color = { 66 157 22 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_ulfkelsfjordr norwegian = cn_ulfkelsfjordr }
+				cultural_names = {
+					norse = cn_ulfkelsfjordr
+					norwegian = cn_ulfkelsfjordr
+					northeod = cn_ulfkelsfjordr
+					norse_gaelic = cn_ulfkelsfjordr
+					norse_brythonic = cn_ulfkelsfjordr
+				}
 				b_donegal = {
 					province = 9
 					color = { 66 157 22 }
@@ -2863,7 +3085,14 @@ e_britannia = {
 					province = 12
 					color = { 66 157 22 }
 					color2 = { 255 255 255 }
-					cultural_names = { irish = cn_daire_coluimb_chille norse = cn_ulfkelsfjordr norwegian = cn_ulfkelsfjordr }
+					cultural_names = {
+						irish = cn_daire_coluimb_chille
+						norse = cn_ulfkelsfjordr
+						norwegian = cn_ulfkelsfjordr
+						northeod = cn_ulfkelsfjordr
+						norse_gaelic = cn_ulfkelsfjordr
+						norse_brythonic = cn_ulfkelsfjordr
+					}
 				}
 			}
 		}
@@ -2971,6 +3200,9 @@ e_britannia = {
 						danish = cn_veisafjord
 						norse = cn_veisafjordr
 						irish = cn_loch_garman
+						northeod = cn_veisafjordr
+						norse_gaelic = cn_veisafjordr
+						norse_brythonic = cn_veisafjordr
 					}
 				}
 				b_enniscorthy = {
@@ -3036,6 +3268,9 @@ e_britannia = {
 						swedish = cn_lymrek
 						norse = cn_hlymrek
 						irish = cn_luimneach
+						northeod = cn_hlymrek
+						norse_gaelic = cn_hlymrek
+						norse_brythonic = cn_hlymrek
 					}
 				}
 				b_nenagh = {
@@ -3084,6 +3319,9 @@ e_britannia = {
 						danish = cn_vedrafjord
 						norse = cn_vedrafjordr
 						irish = cn_port_lairge
+						northeod = cn_vedrafjordr
+						norse_gaelic = cn_vedrafjordr
+						norse_brythonic = cn_vedrafjordr
 					}
 				}
 				b_emly = {
@@ -13314,7 +13552,13 @@ e_scandinavia = {
 					province = 343
 					color = { 30 90 210 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_enkoping danish = cn_enkobing }
+					cultural_names = {
+						norwegian = cn_enkoping
+						danish = cn_enkobing
+						northeod = cn_enkobing
+						norse_gaelic = cn_enkoping
+						norse_brythonic = cn_enkoping
+					}
 				}
 				b_osthammar = {
 					province = 344
@@ -13356,7 +13600,13 @@ e_scandinavia = {
 				}
 				b_nykopung = {
 					province = 337
-					cultural_names = { norwegian = cn_nyokoping danish = cn_nyokobing }
+					cultural_names = {
+						norwegian = cn_nyokoping
+						danish = cn_nyokobing
+						northeod = cn_nyokobing
+						norse_gaelic = cn_nyokoping
+						norse_brythonic = cn_nyokoping
+					}
 					color = { 50 110 230 }
 					color2 = { 255 255 255 }
 				}
@@ -13374,7 +13624,13 @@ e_scandinavia = {
 			c_aland = {
 				color = { 28 56 199 }
 				color2 = { 255 255 255 }
-				cultural_names = { swedish = cn_aland_SWE norse = cn_ahvenanmaa }
+				cultural_names = {
+					swedish = cn_aland_SWE
+					norse = cn_ahvenanmaa
+					northeod = cn_ahvenanmaa
+					norse_gaelic = cn_ahvenanmaa
+					norse_brythonic = cn_ahvenanmaa
+				}
 				b_sund = {
 					province = 216
 					color = { 28 56 199 }
@@ -13398,7 +13654,13 @@ e_scandinavia = {
 					province = 346
 					color = { 43 43 153 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_vesteras danish = cn_vesteras }
+					cultural_names = {
+						norwegian = cn_vesteras
+						danish = cn_vesteras
+						northeod = cn_vesteras
+						norse_gaelic = cn_vesteras
+						norse_brythonic = cn_vesteras
+					}
 				}
 				b_arbuga = {
 					province = 347
@@ -13500,13 +13762,25 @@ e_scandinavia = {
 					province = 317
 					color = { 20 70 215 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_lodose_NORWDAN danish = cn_lodose_NORWDAN }
+					cultural_names = {
+						norwegian = cn_lodose_NORWDAN
+						danish = cn_lodose_NORWDAN
+						northeod = cn_lodose_NORWDAN
+						norse_gaelic = cn_lodose_NORWDAN
+						norse_brythonic = cn_lodose_NORWDAN
+					}
 				}
 				b_falkoping = {
 					province = 319
 					color = { 20 70 215 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_falkoping_NORW danish = cn_falkobing }
+					cultural_names = {
+						norwegian = cn_falkoping_NORW
+						danish = cn_falkobing
+						northeod = cn_falkobing
+						norse_gaelic = cn_falkoping_NORW
+						norse_brythonic = cn_falkoping_NORW
+					}
 				}
 				b_kungahalla = {
 					province = 318
@@ -13588,7 +13862,13 @@ e_scandinavia = {
 					province = 330
 					color = { 34 80 161 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_soderkoping danish = cn_soderkobing }
+					cultural_names = {
+						norwegian = cn_soderkoping
+						danish = cn_soderkobing
+						northeod = cn_soderkobing
+						norse_gaelic = cn_soderkoping
+						norse_brythonic = cn_soderkoping
+					}
 				}
 				b_hamarkinda = {
 					province = 331
@@ -13613,13 +13893,25 @@ e_scandinavia = {
 					province = 332
 					color = { 8 55 138 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_linkoping danish = cn_linkobing }
+					cultural_names = {
+						norwegian = cn_linkoping
+						danish = cn_linkobing
+						northeod = cn_linkobing
+						norse_gaelic = cn_linkoping
+						norse_brythonic = cn_linkoping
+					}
 				}
 				b_skanninge = {
 					province = 333
 					color = { 8 55 138 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_skaenninge danish = cn_skaenninge }
+					cultural_names = {
+						norwegian = cn_skaenninge
+						danish = cn_skaenninge
+						northeod = cn_skaenninge
+						norse_gaelic = cn_skaenninge
+						norse_brythonic = cn_skaenninge
+					}
 				}
 				b_grebo2 = {
 					province = 8734
@@ -13696,7 +13988,13 @@ e_scandinavia = {
 					province = 302
 					color = { 55 80 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norwegian = cn_vexjo danish = cn_vexjo }
+					cultural_names = {
+						norwegian = cn_vexjo
+						danish = cn_vexjo
+						northeod = cn_vexjo
+						norse_gaelic = cn_vexjo
+						norse_brythonic = cn_vexjo
+					}
 				}
 				b_allbo = {
 					province = 303
@@ -13889,6 +14187,9 @@ e_scandinavia = {
 			norwegian = cn_lappland
 			swedish = cn_lappland
 			norse = cn_lappland
+			northeod = cn_lappland
+			norse_gaelic = cn_lappland
+			norse_brythonic = cn_lappland
 		}
 		capital = c_biton
 		can_create = {
@@ -13914,6 +14215,9 @@ e_scandinavia = {
 				norwegian = cn_lappland
 				swedish = cn_lappland
 				norse = cn_lappland
+				northeod = cn_lappland
+				norse_gaelic = cn_lappland
+				norse_brythonic = cn_lappland
 			}
 			c_sjeltie = {
 				color = { 35 35 180 }
@@ -14001,7 +14305,14 @@ e_scandinavia = {
 			color = { 10 10 90 }
 			color2 = { 255 255 255 }
 			capital = c_biton
-			cultural_names = { norwegian = cn_vasterbotten swedish = cn_vasterbotten norse = cn_vasterbotten }
+			cultural_names = {
+				norwegian = cn_vasterbotten
+				swedish = cn_vasterbotten
+				norse = cn_vasterbotten
+				northeod = cn_vasterbotten
+				norse_gaelic = cn_vasterbotten
+				norse_brythonic = cn_vasterbotten
+			}
 			c_biton = {
 				color = { 20 35 110 }
 				color2 = { 255 255 255 }
@@ -14096,6 +14407,9 @@ e_scandinavia = {
 				norwegian = cn_finnmork
 				swedish = cn_finnmork
 				finnish = cn_ruija
+				northeod = cn_finnmork
+				norse_gaelic = cn_finnmork
+				norse_brythonic = cn_finnmork
 			}
 			c_siggevara = {
 				color = { 46 37 225 }
@@ -14133,12 +14447,24 @@ e_scandinavia = {
 			c_rounala = {
 				color = { 80 75 235 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_trums norwegian = cn_trums }
+				cultural_names = {
+					norse = cn_trums
+					norwegian = cn_trums
+					northeod = cn_trums
+					norse_gaelic = cn_trums
+					norse_brythonic = cn_trums
+				}
 				b_rounala = {
 					province = 393
 					color = { 80 75 235 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_b_trums norwegian = cn_b_trums }
+					cultural_names = {
+						norse = cn_b_trums
+						norwegian = cn_b_trums
+						northeod = cn_b_trums
+						norse_gaelic = cn_b_trums
+						norse_brythonic = cn_b_trums
+					}
 				}
 				b_tingevara = {
 					province = 383
@@ -14153,30 +14479,60 @@ e_scandinavia = {
 					province = 397
 					color = { 110 110 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_kollefjord norwegian = cn_kollefjord }
+					cultural_names = {
+						norse = cn_kollefjord
+						norwegian = cn_kollefjord
+						northeod = cn_kollefjord
+						norse_gaelic = cn_kollefjord
+						norse_brythonic = cn_kollefjord
+					}
 				}
 				b_guovdageaidnu = {
 					province = 394
 					color = { 110 110 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_oksfjord norwegian = cn_oksfjord }
+					cultural_names = {
+						norse = cn_oksfjord
+						norwegian = cn_oksfjord
+						northeod = cn_oksfjord
+						norse_gaelic = cn_oksfjord
+						norse_brythonic = cn_oksfjord
+					}
 				}
 				b_iesjavri = {
 					province = 395
 					color = { 110 110 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_rafsbotn norwegian = cn_rafsbotn }
+					cultural_names = {
+						norse = cn_rafsbotn
+						norwegian = cn_rafsbotn
+						northeod = cn_rafsbotn
+						norse_gaelic = cn_rafsbotn
+						norse_brythonic = cn_rafsbotn
+					}
 				}
 			}
 			c_karasjohka = {
 				color = { 100 95 255 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_vargo norwegian = cn_vardo }
+				cultural_names = {
+					norse = cn_vargo
+					norwegian = cn_vardo
+					northeod = cn_vargo
+					norse_gaelic = cn_vargo
+					norse_brythonic = cn_vargo
+				}
 				b_karasjohka = {
 					province = 396
 					color = { 100 95 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_porsanger norwegian = cn_porsanger }
+					cultural_names = {
+						norse = cn_porsanger
+						norwegian = cn_porsanger
+						northeod = cn_porsanger
+						norse_gaelic = cn_porsanger
+						norse_brythonic = cn_porsanger
+					}
 				}
 				b_laggujakka = {
 					province = 398
@@ -14187,7 +14543,13 @@ e_scandinavia = {
 					province = 399
 					color = { 100 95 255 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_b_vargo norwegian = cn_b_vardo }
+					cultural_names = {
+						norse = cn_b_vargo
+						norwegian = cn_b_vardo
+						northeod = cn_b_vargo
+						norse_gaelic = cn_b_vargo
+						norse_brythonic = cn_b_vargo
+					}
 				}
 			}
 		}
@@ -14200,6 +14562,9 @@ e_scandinavia = {
 				norwegian = cn_leporie
 				norse = cn_leporie
 				russian = cn_leporie
+				northeod = cn_leporie
+				norse_gaelic = cn_leporie
+				norse_brythonic = cn_leporie
 			}
 			c_peaccam = {
 				color = { 20 10 155 }
@@ -14362,6 +14727,9 @@ e_scandinavia = {
 				norse = cn_kola
 				russian = cn_kola
 				finnish = cn_kuola
+				northeod = cn_kola
+				norse_gaelic = cn_kola
+				norse_brythonic = cn_kola
 			}
 			c_ter = {
 				color = { 55 35 245 }
@@ -14492,7 +14860,13 @@ e_scandinavia = {
 					province = 64
 					color = { 216 50 50 }
 					color2 = { 255 255 255 }
-					cultural_names = { swedish = cn_nastved norse = cn_naestved }
+					cultural_names = {
+						swedish = cn_nastved
+						norse = cn_naestved
+						northeod = cn_naestved
+						norse_gaelic = cn_naestved
+						norse_brythonic = cn_naestved
+					}
 				}
 				b_slagelse = {
 					province = 69
@@ -14618,7 +14992,13 @@ e_scandinavia = {
 					province = 80
 					color = { 220 30 20 }
 					color2 = { 255 255 255 }
-					cultural_names = { danish = cn_avaskaer norwegian = cn_avaskaer }
+					cultural_names = {
+						danish = cn_avaskaer
+						norwegian = cn_avaskaer
+						northeod = cn_avaskaer
+						norse_gaelic = cn_avaskaer
+						norse_brythonic = cn_avaskaer
+					}
 				}
 			}
 		}
@@ -14716,7 +15096,12 @@ e_scandinavia = {
 					province = 62
 					color = { 216 89 60 }
 					color2 = { 255 255 255 }
-					cultural_names = { norse = cn_heidabyr }
+					cultural_names = {
+						norse = cn_heidabyr
+						northeod = cn_heidabyr
+						norse_gaelic = cn_heidabyr
+						norse_brythonic = cn_heidabyr
+					}
 				}
 				b_aabenraa = {
 					province = 61
@@ -14780,7 +15165,12 @@ e_scandinavia = {
 		color = { 130 4 40 }
 		color2 = { 220 220 220 }
 		capital = c_trandheim
-		cultural_names = { norse = cn_noregr }
+		cultural_names = {
+			norse = cn_noregr
+			northeod = cn_noregr
+			norse_gaelic = cn_noregr
+			norse_brythonic = cn_noregr
+		}
 		ai_primary_priority = {
 			if = {
 				limit = { culture = culture:norwegian }
@@ -14823,7 +15213,12 @@ e_scandinavia = {
 			c_raniriki = {
 				color = { 220 4 40 }
 				color2 = { 220 220 220 }
-				cultural_names = { norse = cn_alfheimar }
+				cultural_names = {
+					norse = cn_alfheimar
+					northeod = cn_alfheimar
+					norse_gaelic = cn_alfheimar
+					norse_brythonic = cn_alfheimar
+				}
 				b_bagahus = {
 					province = 229
 					color = { 220 4 40 }
@@ -15223,7 +15618,13 @@ e_scandinavia = {
 			color = { 255 245 245 }
 			color2 = { 220 220 220 }
 			capital = c_vestisland
-			cultural_names = { norse = cn_island norwegian = cn_island }
+			cultural_names = {
+				norse = cn_island
+				norwegian = cn_island
+				northeod = cn_island
+				norse_gaelic = cn_island
+				norse_brythonic = cn_island
+			}
 			c_vestisland = {
 				color = { 255 245 245 }
 				color2 = { 220 220 220 }
@@ -15250,7 +15651,12 @@ e_scandinavia = {
 					province = 5
 					color = { 240 230 230 }
 					color2 = { 220 220 220 }
-					cultural_names = { norse = cn_husavik }
+					cultural_names = {
+						norse = cn_husavik
+						northeod = cn_husavik
+						norse_gaelic = cn_husavik
+						norse_brythonic = cn_husavik
+					}
 				}
 				b_vopnafjordur = {
 					province = 8773
@@ -15292,11 +15698,22 @@ e_scandinavia = {
 			color2 = { 255 255 255 }
 			capital = c_orkney
 			definite_form = yes
-			cultural_names = { norse = cn_nordreyjar }
+			cultural_names = {
+				norse = cn_nordreyjar
+				northeod = cn_nordreyjar
+				norse_gaelic = cn_nordreyjar
+				norse_brythonic = cn_nordreyjar
+			}
 			c_orkney = {
 				color = { 195 75 75 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_orkneyjar norwegian = cn_orkneyjar }
+				cultural_names = {
+					norse = cn_orkneyjar
+					norwegian = cn_orkneyjar
+					northeod = cn_orkneyjar
+					norse_gaelic = cn_orkneyjar
+					norse_brythonic = cn_orkneyjar
+				}
 				b_kirkwall = {
 					province = 8
 					color = { 195 75 75 }
@@ -15309,6 +15726,9 @@ e_scandinavia = {
 						pictish = cn_icluasctreh
 						welsh = cn_eglwystref
 						irish = cn_baile_na_h_eaglais
+						northeod = cn_kirkuvag
+						norse_gaelic = cn_kirkuvag
+						norse_brythonic = cn_kirkuvag
 					}
 				}
 			}
@@ -15324,13 +15744,22 @@ e_scandinavia = {
 						pictish = cn_pirth_taran
 						welsh = cn_porth_taran
 						irish = cn_port_turenn
+						northeod = cn_torshavn
+						norse_gaelic = cn_torshavn
+						norse_brythonic = cn_torshavn
 					}
 				}
 			}
 			c_shetland = {
 				color = { 205 65 65 }
 				color2 = { 255 255 255 }
-				cultural_names = { norse = cn_hjaltland norwegian = cn_hjaltland }
+				cultural_names = {
+					norse = cn_hjaltland
+					norwegian = cn_hjaltland
+					northeod = cn_hjaltland
+					norse_gaelic = cn_hjaltland
+					norse_brythonic = cn_hjaltland
+				}
 				b_scalloway = {
 					province = 7
 					color = { 205 65 65 }
@@ -15341,6 +15770,9 @@ e_scandinavia = {
 						pictish = cn_bachuuon_maurt
 						welsh = cn_bachwyon_mawrty
 						irish = cn_batin_mortaigh
+						northeod = cn_skalavagr
+						norse_gaelic = cn_skalavagr
+						norse_brythonic = cn_skalavagr
 					}
 				}
 			}
@@ -15511,7 +15943,13 @@ e_scandinavia = {
 			c_satakunta = {
 				color = { 200 190 25 }
 				color2 = { 255 255 255 }
-				cultural_names = { swedish = cn_satakunda norse = cn_satakunda }
+				cultural_names = {
+					swedish = cn_satakunda
+					norse = cn_satakunda
+					northeod = cn_satakunda
+					norse_gaelic = cn_satakunda
+					norse_brythonic = cn_satakunda
+				}
 				b_ulvila = {
 					province = 185
 					color = { 200 190 25 }
@@ -15579,6 +16017,9 @@ e_scandinavia = {
 					norse = cn_olofsborg
 					norwegian = cn_olavsborg
 					danish = cn_olavsborg
+					northeod = cn_olofsborg
+					norse_gaelic = cn_olofsborg
+					norse_brythonic = cn_olofsborg
 				}
 				b_olavinlinna = {
 					province = 190
@@ -15589,6 +16030,9 @@ e_scandinavia = {
 						norse = cn_olofsborg
 						norwegian = cn_olavsborg
 						danish = cn_olavsborg
+						northeod = cn_olofsborg
+						norse_gaelic = cn_olofsborg
+						norse_brythonic = cn_olofsborg
 					}
 				}
 				b_sulkava = {
@@ -15610,6 +16054,9 @@ e_scandinavia = {
 						norse = cn_st_michel
 						norwegian = cn_st_michel
 						danish = cn_st_michel
+						northeod = cn_st_michel
+						norse_gaelic = cn_st_michel
+						norse_brythonic = cn_st_michel
 					}
 				}
 				b_tohmajarvi = {
@@ -15745,6 +16192,9 @@ e_scandinavia = {
 					norwegian = cn_kexholm
 					danish = cn_kexholm
 					russian = cn_korela
+					northeod = cn_kexholm
+					norse_gaelic = cn_kexholm
+					norse_brythonic = cn_kexholm
 				}
 				b_kakisalmi = {
 					province = 172
@@ -15756,6 +16206,9 @@ e_scandinavia = {
 						norwegian = cn_kexholm
 						danish = cn_kexholm
 						russian = cn_korela
+						northeod = cn_kexholm
+						norse_gaelic = cn_kexholm
+						norse_brythonic = cn_kexholm
 					}
 				}
 				b_koivisto = {
@@ -15945,6 +16398,9 @@ e_scandinavia = {
 						swabian = cn_reval
 						bavarian = cn_reval
 						norse = cn_reval
+						northeod = cn_reval
+						norse_gaelic = cn_reval
+						norse_brythonic = cn_reval
 					}
 				}
 				b_harjumaa = {
@@ -15988,6 +16444,9 @@ e_scandinavia = {
 						saxon = cn_arensburg
 						swabian = cn_arensburg
 						bavarian = cn_arensburg
+						northeod = cn_arensborg
+						norse_gaelic = cn_arensborg
+						norse_brythonic = cn_arensborg
 					}
 				}
 				b_maasilinna = {
@@ -16008,6 +16467,9 @@ e_scandinavia = {
 						saxon = cn_moon
 						swabian = cn_moon
 						bavarian = cn_moon
+						northeod = cn_moon
+						norse_gaelic = cn_moon
+						norse_brythonic = cn_moon
 					}
 				}
 				b_hiiumaa = {
@@ -16052,6 +16514,9 @@ e_scandinavia = {
 						norse = cn_lemsal
 						danish = cn_lemsal
 						norwegian = cn_lemsal
+						northeod = cn_lemsal
+						norse_gaelic = cn_lemsal
+						norse_brythonic = cn_lemsal
 					}
 				}
 				b_salacgriva = {
@@ -16080,6 +16545,9 @@ e_scandinavia = {
 						norwegian = cn_yxkull
 						polish = cn_ikS_kila
 						lithuanian = cn_ikS_kile
+						northeod = cn_yxkull
+						norse_gaelic = cn_yxkull
+						norse_brythonic = cn_yxkull
 					}
 				}
 			}
@@ -16134,6 +16602,9 @@ e_scandinavia = {
 					saxon = cn_dorpat
 					swabian = cn_dorpat
 					bavarian = cn_dorpat
+					northeod = cn_dorpat
+					norse_gaelic = cn_dorpat
+					norse_brythonic = cn_dorpat
 				}
 				b_tartu = {
 					province = 145
@@ -16148,6 +16619,9 @@ e_scandinavia = {
 						saxon = cn_dorpat
 						swabian = cn_dorpat
 						bavarian = cn_dorpat
+						northeod = cn_dorpat
+						norse_gaelic = cn_dorpat
+						norse_brythonic = cn_dorpat
 					}
 				}
 				b_poltsamaa = {
@@ -18903,6 +19377,9 @@ e_wendish_empire = {
 						norse = cn_raseinen
 						danish = cn_raseinen
 						norwegian = cn_raseinen
+						northeod = cn_raseinen
+						norse_gaelic = cn_raseinen
+						norse_brythonic = cn_raseinen
 					}
 				}
 				b_jurbarkas = {
@@ -18918,6 +19395,9 @@ e_wendish_empire = {
 						norse = cn_georgsborg
 						danish = cn_georgsborg
 						norwegian = cn_georgsborg
+						northeod = cn_georgsborg
+						norse_gaelic = cn_georgsborg
+						norse_brythonic = cn_georgsborg
 					}
 				}
 				b_veliuona = {
@@ -19024,6 +19504,9 @@ e_russia = {
 		swedish = cn_gardariki
 		danish = cn_gardariki
 		norwegian = cn_gardariki
+		northeod = cn_gardariki
+		norse_gaelic = cn_gardariki
+		norse_brythonic = cn_gardariki
 	}
 	k_galicia-volhynia = {
 		color = { 50 150 130 }
@@ -19403,6 +19886,9 @@ e_russia = {
 				danish = cn_konugard_NORDAN
 				polish = cn_kijow
 				lithuanian = cn_kijevas
+				northeod = cn_konugardr_NORSE
+				norse_gaelic = cn_konugardr_NORSE
+				norse_brythonic = cn_konugardr_NORSE
 			}
 			c_kiev = {
 				color = { 53 105 66 }
@@ -19414,6 +19900,9 @@ e_russia = {
 					danish = cn_konugard_NORDAN
 					polish = cn_kijow
 					lithuanian = cn_kijevas
+					northeod = cn_konugardr_NORSE
+					norse_gaelic = cn_konugardr_NORSE
+					norse_brythonic = cn_konugardr_NORSE
 				}
 				b_kiev = {
 					province = 547
@@ -19426,6 +19915,9 @@ e_russia = {
 						danish = cn_konugard_NORDAN
 						polish = cn_kijow
 						lithuanian = cn_kijevas
+						northeod = cn_konugardr_NORSE
+						norse_gaelic = cn_konugardr_NORSE
+						norse_brythonic = cn_konugardr_NORSE
 					}
 				}
 				b_vyshgorod = {
@@ -19967,6 +20459,9 @@ e_russia = {
 			swedish = cn_gardariki
 			danish = cn_gardariki
 			norwegian = cn_gardariki
+			northeod = cn_gardariki
+			norse_gaelic = cn_gardariki
+			norse_brythonic = cn_gardariki
 		}
 		d_novgorod = {
 			color = { 157 194 120 }
@@ -19978,6 +20473,9 @@ e_russia = {
 				danish = cn_holmgardr
 				norwegian = cn_holmgardr
 				lithuanian = cn_naugardas
+				northeod = cn_holmgardr
+				norse_gaelic = cn_holmgardr
+				norse_brythonic = cn_holmgardr
 			}
 			c_novgorod = {
 				color = { 122 153 90 }
@@ -19992,6 +20490,9 @@ e_russia = {
 						danish = cn_holmgardr
 						norwegian = cn_holmgardr
 						lithuanian = cn_naugardas
+						northeod = cn_holmgardr
+						norse_gaelic = cn_holmgardr
+						norse_brythonic = cn_holmgardr
 					}
 				}
 				b_ladoga = {
@@ -20005,6 +20506,9 @@ e_russia = {
 						norwegian = cn_aldeigjuborg
 						finnish = cn_laatokka
 						karelian = cn_laatokka
+						northeod = cn_aldeigjuborg
+						norse_gaelic = cn_aldeigjuborg
+						norse_brythonic = cn_aldeigjuborg
 					}
 				}
 				b_lyuban = {
@@ -20131,6 +20635,9 @@ e_russia = {
 						swabian = cn_schlusselburg
 						bavarian = cn_schlusselburg
 						russian = cn_oreshek
+						northeod = cn_noteborg_SWENORSE
+						norse_gaelic = cn_noteborg_SWENORSE
+						norse_brythonic = cn_noteborg_SWENORSE
 					}
 				}
 				b_koporye = {
@@ -20516,6 +21023,9 @@ e_russia = {
 				norse = cn_pallteskja
 				danish = cn_pallteskja
 				norwegian = cn_pallteskja
+				northeod = cn_pallteskja
+				norse_gaelic = cn_pallteskja
+				norse_brythonic = cn_pallteskja
 			}
 			c_polotsk = {
 				color = { 127 184 184 }
@@ -20527,6 +21037,9 @@ e_russia = {
 					norse = cn_pallteskja
 					danish = cn_pallteskja
 					norwegian = cn_pallteskja
+					northeod = cn_pallteskja
+					norse_gaelic = cn_pallteskja
+					norse_brythonic = cn_pallteskja
 				}
 				b_polotsk = {
 					province = 5129
@@ -20539,6 +21052,9 @@ e_russia = {
 						norse = cn_pallteskja
 						danish = cn_pallteskja
 						norwegian = cn_pallteskja
+						northeod = cn_pallteskja
+						norse_gaelic = cn_pallteskja
+						norse_brythonic = cn_pallteskja
 					}
 				}
 				b_drysa = {
@@ -20732,6 +21248,9 @@ e_russia = {
 					muroma = cn_timerovo
 					mordvin = cn_timerovo
 					mari = cn_timerovo
+					northeod = cn_timerovo
+					norse_gaelic = cn_timerovo
+					norse_brythonic = cn_timerovo
 				}
 				b_yaroslavl = {
 					province = 572
@@ -20747,6 +21266,9 @@ e_russia = {
 						muroma = cn_timerovo
 						mordvin = cn_timerovo
 						mari = cn_timerovo
+						northeod = cn_timerovo
+						norse_gaelic = cn_timerovo
+						norse_brythonic = cn_timerovo
 					}
 				}
 				b_rostov = {
