@@ -1026,6 +1026,12 @@ e_britannia = {
 					color2 = { 255 255 255 }
 				}
 			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:northeod }
+					add = @correct_culture_primary_score
+				}
+			}
 		}
 		d_york = {
 			color = { 255 90 15 }
@@ -1049,6 +1055,11 @@ e_britannia = {
 			ai_primary_priority = {
 				if = {
 					limit = { culture = culture:norse }
+					add = @better_than_the_alternatives_score
+				}
+				if = {
+					limit = { culture = culture:northeod }
+					add = @correct_culture_primary_score
 					add = @better_than_the_alternatives_score
 				}
 			}
@@ -1305,6 +1316,12 @@ e_britannia = {
 						norse_gaelic = cn_linn
 						norse_brythonic = cn_linn
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:northeod }
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -1748,6 +1765,10 @@ e_britannia = {
 					limit = { culture = culture:cornish }
 					add = @correct_culture_primary_score
 				}
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @better_than_the_alternatives_score
+				}
 			}
 			c_devon = {
 				color = { 170 60 10 }
@@ -1922,6 +1943,13 @@ e_britannia = {
 					cultural_names = { norman = cn_ruthin english = cn_ruthin }
 				}
 			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @correct_culture_primary_score
+					add = @better_than_the_alternatives_score
+				}
+			}
 		}
 		d_powys = {
 			color = { 115 30 30 }
@@ -2081,6 +2109,12 @@ e_britannia = {
 					province = 1660
 					color = { 215 150 115 }
 					color2 = { 255 255 255 }
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_brythonic }
+					add = @correct_culture_primary_score
 				}
 			}
 		}
@@ -2269,6 +2303,14 @@ e_britannia = {
 						norse_gaelic = cn_hramsa
 						norse_brythonic = cn_hramsa
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = {
+						OR = { culture = culture:northeod culture = culture:norse_gaelic culture = culture:norse_brythonic }
+					}
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -2583,6 +2625,13 @@ e_britannia = {
 						norse_gaelic = cn_mylarsund
 						norse_brythonic = cn_mylarsund
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @correct_culture_primary_score
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
@@ -3093,6 +3142,12 @@ e_britannia = {
 						norse_gaelic = cn_ulfkelsfjordr
 						norse_brythonic = cn_ulfkelsfjordr
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @correct_culture_primary_score
 				}
 			}
 		}
@@ -15774,6 +15829,12 @@ e_scandinavia = {
 						norse_gaelic = cn_skalavagr
 						norse_brythonic = cn_skalavagr
 					}
+				}
+			}
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:norse_gaelic }
+					add = @better_than_the_alternatives_score
 				}
 			}
 		}
