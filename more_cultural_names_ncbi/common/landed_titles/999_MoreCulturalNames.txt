@@ -2486,7 +2486,7 @@ e_britannia = {
 				norse_gaelic = "Norðhymbraland"
 				norse_brythonic = "Norðhymbraland"
 			}
-			color = { 0.98 0.9 0.9 }
+			color = hsv{ 0.98 0.9 0.9 }
 			color2 = { 255 255 255 }
 			ai_primary_priority = {
 				if = {
@@ -6354,7 +6354,7 @@ e_britannia = {
 				norse_gaelic = "Westseaxe"
 				norse_brythonic = "Westseaxe"
 			}
-			color = { 1 0.9 0.9 }
+			color = hsv{ 1 0.9 0.9 }
 			color2 = { 255 255 255 }
 			capital = c_hampton
 			ai_primary_priority = {
@@ -26798,7 +26798,7 @@ e_byzantium = {
 		norse_gaelic = "Rómverska Keisaradæmið"
 		norse_brythonic = "Rómverska Keisaradæmið"
 	}
-	color = { 0.9 1 0.3 }
+	color = hsv{ 0.9 1 0.3 }
 	color2 = { 255 255 255 }
 	capital = c_byzantion
 	definite_form = yes
