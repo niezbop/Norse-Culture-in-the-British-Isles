@@ -36,11 +36,11 @@
 			}
 		}
 		OR = {
-			completely_controls = title:d_northumberland
-			completely_controls = title:d_york
-			completely_controls = title:d_lancaster
-			completely_controls = title:d_hereford
-			completely_controls = title:d_norfolk
+			title:d_northumberland = { title_held_years >= 15 }
+			title:d_york = { title_held_years >= 15 }
+			title:d_lancaster = { title_held_years >= 15 }
+			title:d_hereford = { title_held_years >= 15 }
+			title:d_norfolk = { title_held_years >= 15 }
 		}
 	}
 
@@ -214,11 +214,11 @@ establish_lochlannach_culture_decision = {
 			}
 		}
 		OR = {
-			completely_controls = title:d_western_isles
-			completely_controls = title:d_the_isles
-			completely_controls = title:d_moray
-			completely_controls = title:d_ulster
-			completely_controls = title:d_meath
+			title:d_western_isles = { title_held_years >= 15 }
+			title:d_the_isles = { title_held_years >= 15 }
+			title:d_moray = { title_held_years >= 15 }
+			title:d_ulster = { title_held_years >= 15 }
+			title:d_meath = { title_held_years >= 15 }
 		}
 	}
 
@@ -396,10 +396,10 @@ establish_llychlynwr_culture_decision = {
 			}
 		}
 		OR = {
-			completely_controls = title:d_gwynedd
-			completely_controls = title:d_deheubarth
-			completely_controls = title:d_cornwall
-			completely_controls = title:d_galloway
+			title:d_gwynedd = { title_held_years >= 15 }
+			title:d_deheubarth = { title_held_years >= 15 }
+			title:d_cornwall = { title_held_years >= 15 }
+			title:d_galloway = { title_held_years >= 15 }
 		}
 	}
 
