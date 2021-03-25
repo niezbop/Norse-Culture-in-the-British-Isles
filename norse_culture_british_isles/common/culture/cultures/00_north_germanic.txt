@@ -1076,7 +1076,7 @@
 		}
 	}
 
-	norse_gaelic = {
+	lochlannach = {
 		graphical_cultures = {
 			norwegian_coa_gfx
 		}
@@ -1355,7 +1355,7 @@
 		}
 	}
 
-	norse_brythonic = {
+	llychlynwr = {
 		graphical_cultures = {
 			norwegian_coa_gfx
 		}

@@ -1,10 +1,10 @@
 [h1]About[/h1]
 
-[b]Norse cultures in the British Isles[/b] is a flavour mod for Crusader Kings III that adds three new [b]creatable cultures[/b] in the North Germanic group. These cultures describe an alternate history in which Norse settlement in Northern England, Wales and Scotland/Ireland would have intensified, leading to the emergence of Norse cultures in those parts of Britannia influenced by the local people, respectively the [b]Northeod[/b] culture, the [b]Norse-Brythonic[/b] and the [b]Norse-Gaelic[/b].
+[b]Norse cultures in the British Isles[/b] is a flavour mod for Crusader Kings III that adds three new [b]creatable cultures[/b] in the North Germanic group. These cultures describe an alternate history in which Norse settlement in Northern England, Wales and Scotland/Ireland would have intensified, leading to the emergence of Norse cultures in those parts of Britannia influenced by the local people, respectively the [b]Northeod[/b] culture, the [b]Llychlynwr[/b] and the [b]Lochlannach[/b].
 
 [h1]In game features[/h1]
 [list]
-[*] 3 new cultures, Northeod, Norse-Brythonic and Norse-Gaelic
+[*] 3 new cultures, Northeod, Llychlynwr and Lochlannach
 [*] Decisions and event chains to create these cultures
 [*] Added flavour for the new cultures
 [/list]
@@ -33,7 +33,7 @@ Any mod that changes [i]00_landed_titles.txt[/i] can be loaded after this mod sa
 
 [h2]Specific mods Compatibility[/h2]
 [list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url]: if loaded after [b]Norse cultures in the British Isles[/b], both mods will work fine. The Northeod and Norse-Gaelic culture however are not supported by [b]More Cultural Names[/b], which means that they will use the Vanilla names. I made a patch for them to use cultural names as well: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2283101111]More Cultural Names + Norse Cultures in the British Isles[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217534250]More Cultural Names[/url]: if loaded after [b]Norse cultures in the British Isles[/b], both mods will work fine. The Northeod and Lochlannach culture however are not supported by [b]More Cultural Names[/b], which means that they will use the Vanilla names. I made a patch for them to use cultural names as well: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2283101111]More Cultural Names + Norse Cultures in the British Isles[/url]
 [/list]
 
 [h2]Achievements Compatibility[/h2]

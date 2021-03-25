@@ -12,8 +12,8 @@
 			this = culture:norwegian
 			this = culture:danish
 			this = culture:northeod
-			this = culture:norse_gaelic
-			this = culture:norse_brythonic
+			this = culture:lochlannach
+			this = culture:llychlynwr
 		}
 	}
 
@@ -37,8 +37,8 @@ innovation_hird = {
 			this = culture:norwegian
 			this = culture:danish
 			this = culture:northeod
-			this = culture:norse_gaelic
-			this = culture:norse_brythonic
+			this = culture:lochlannach
+			this = culture:llychlynwr
 
 			# West Germanic
 			this = culture:anglo_saxon

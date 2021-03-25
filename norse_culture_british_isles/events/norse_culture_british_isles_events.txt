@@ -79,7 +79,7 @@ norse_culture_british_isles.1003 = {
 }
 
 #=============================
-# Norse-Gaelic culture
+# Lochlannach culture
 #=============================
 
 norse_culture_british_isles.2001 = {
@@ -88,14 +88,14 @@ norse_culture_british_isles.2001 = {
 	desc = norse_culture_british_isles.2001.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_gaelic_founder
+		character = scope:lochlannach_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
-			culture:norse_gaelic = {
+			culture:lochlannach = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
@@ -114,14 +114,14 @@ norse_culture_british_isles.2002 = {
 	desc = norse_culture_british_isles.2002.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_gaelic_founder
+		character = scope:lochlannach_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
-			culture:norse_gaelic = {
+			culture:lochlannach = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
@@ -140,13 +140,13 @@ norse_culture_british_isles.2003 = {
 	desc = norse_culture_british_isles.2003.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_gaelic_founder
+		character = scope:lochlannach_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
-			culture:norse_gaelic = {
+			culture:lochlannach = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
@@ -160,7 +160,7 @@ norse_culture_british_isles.2003 = {
 }
 
 #=============================
-# Norse-Brythonic culture
+# Llychlynwr culture
 #=============================
 
 norse_culture_british_isles.3001 = {
@@ -169,14 +169,14 @@ norse_culture_british_isles.3001 = {
 	desc = norse_culture_british_isles.3001.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_brythonic_founder
+		character = scope:llychlynwr_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
-			culture:norse_brythonic = {
+			culture:llychlynwr = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:welsh
 				get_all_innovations_from = culture:cumbrian
@@ -195,14 +195,14 @@ norse_culture_british_isles.3002 = {
 	desc = norse_culture_british_isles.3002.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_brythonic_founder
+		character = scope:llychlynwr_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
 			custom_tooltip = global_culture.custom.merge_culture
-			culture:norse_brythonic = {
+			culture:llychlynwr = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:welsh
 				get_all_innovations_from = culture:cumbrian
@@ -221,13 +221,13 @@ norse_culture_british_isles.3003 = {
 	desc = norse_culture_british_isles.3003.desc
 	theme = culture_change
 	left_portrait = {
-		character = scope:norse_brythonic_founder
+		character = scope:llychlynwr_founder
 		animation = personality_honorable
 	}
 
 	immediate = {
 		show_as_tooltip = {
-			culture:norse_brythonic = {
+			culture:llychlynwr = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:welsh
 				get_all_innovations_from = culture:cumbrian

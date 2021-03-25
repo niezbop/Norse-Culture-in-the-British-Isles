@@ -3,13 +3,13 @@
  northeod:0 "Northeod"
  northeod_collective_noun:0 "Northeod"
 
- # Norse-Gaelic Culture
- norse_gaelic:0 "nord-gaélique"
- norse_gaelic_collective_noun:0 "Nord-Gaéliques"
+ # Lochlannach Culture
+ lochlannach:0 "nord-gaélique"
+ lochlannach_collective_noun:0 "Nord-Gaéliques"
 
- # Norse-Brythonic Culture
- norse_brythonic:0 "nord-brittonique"
- norse_brythonic_collective_noun:0 "Nord-Brittoniques"
+ # Llychlynwr Culture
+ llychlynwr:0 "nord-brittonique"
+ llychlynwr_collective_noun:0 "Nord-Brittoniques"
 
  # Northeod Merge
  norse_culture_british_isles.1001.t:0 "L'ascension des Northeod"
@@ -35,7 +35,7 @@
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:1 "Vous avez au moins un [county|E] de culture nord-germanique en Angleterre du Nord"
  THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_NORTHERN_ENGLAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] a au moins un[county|E] de culture nord-germanique en Angleterre du Nord"
 
- # Norse-Gaelic Merge
+ # Lochlannach Merge
  norse_culture_british_isles.2001.t:0 "L'ascension des Nord-Gaéliques"
  norse_culture_british_isles.2001.desc:1 "Les terres de Brittanie ont fourni un terrain fertile pour l'installation et l'expansion de notre peuple.\n\nEn adoptant les traditions locales, nous serons capables de mieux nous acclimater à la région."
  norse_culture_british_isles.2001.a:0 "Aux nouveaux amis et aux nouveaux projets !"
@@ -45,21 +45,21 @@
  norse_culture_british_isles.2002.a:0 "Ni complètement nordiques ni gaéliques, nous sommes Nord-Gaéliques !"
 
  norse_culture_british_isles.2003.t:0 "$norse_culture_british_isles.2001.t$"
- norse_culture_british_isles.2003.desc:0 "Un groupe de colons originaires de Scandinavie s'est installé sur les terres gaéliques.\n\n[norse_gaelic_founder.Custom('FR_only_le_GetTitledFirstName')|U][norse_gaelic_founder.GetTitledFirstName] qui se trouve à leur tête a décrété que son peuple adopterait certaines traditions locales afin de s'assurer qu'il s'épanouisse dans ce nouveau pays."
+ norse_culture_british_isles.2003.desc:0 "Un groupe de colons originaires de Scandinavie s'est installé sur les terres gaéliques.\n\n[lochlannach_founder.Custom('FR_only_le_GetTitledFirstName')|U][lochlannach_founder.GetTitledFirstName] qui se trouve à leur tête a décrété que son peuple adopterait certaines traditions locales afin de s'assurer qu'il s'épanouisse dans ce nouveau pays."
  norse_culture_british_isles.2003.a:0 "Qu'est-ce que cela implique pour la région ?"
 
- # Establish Norse-Gaelic Culture
- establish_norse_gaelic_culture_decision:0 "Établir une culture nord-gaélique"
- establish_norse_gaelic_culture_decision_desc:0 "Nous ne pouvons plus nier le fait que la Britannie est notre nouveau foyer. Reconnaissons enfin que nos traditions ont évoluées."
- establish_norse_gaelic_culture_decision_confirm:0 "Nous sommes Nord-Gaéliques."
- establish_norse_gaelic_culture_decision_tooltip:0 "Fusionner notre culture nordique et les traditions goidéliques locales"
- establish_norse_gaelic_culture_decision_effect.tt:0 "Tous les comtés [old_culture_1.GetCollectiveNoun] et nord-germaniques et tous les personnages en Écosse ou en Irlande deviennent [new_culture.GetCollectiveNoun]"
+ # Establish Lochlannach Culture
+ establish_lochlannach_culture_decision:0 "Établir une culture nord-gaélique"
+ establish_lochlannach_culture_decision_desc:0 "Nous ne pouvons plus nier le fait que la Britannie est notre nouveau foyer. Reconnaissons enfin que nos traditions ont évoluées."
+ establish_lochlannach_culture_decision_confirm:0 "Nous sommes Nord-Gaéliques."
+ establish_lochlannach_culture_decision_tooltip:0 "Fusionner notre culture nordique et les traditions goidéliques locales"
+ establish_lochlannach_culture_decision_effect.tt:0 "Tous les comtés [old_culture_1.GetCollectiveNoun] et nord-germaniques et tous les personnages en Écosse ou en Irlande deviennent [new_culture.GetCollectiveNoun]"
  MY_CAPITAL_IS_IN_SCOTLAND_OR_IRELAND:1 "Votre [realm_capital|E] est en Écosse ou en Irlande"
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "A au moins un [county|E] de culture nord-germanique en Écosse ou en Irlande"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:1 "Vous avez au moins un [county|E] de culture nord-germanique en Écosse ou en Irlande"
  THEY_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_SCOTLAND_OR_IRELAND_TRIGGER:0 "[CHARACTER.GetShortUIName|U] a au moins un[county|E] de culture nord-germanique en Écosse ou en Irlande"
 
- # Norse-Brythonic Merge
+ # Llychlynwr Merge
  norse_culture_british_isles.3001.t:0 "L'ascension des Nord-Brittoniques"
  norse_culture_british_isles.3001.desc:1 "Les terres de Brittanie ont fourni un terrain fertile pour l'installation et l'expansion de notre peuple.\n\nEn adoptant les traditions locales, nous serons capables de mieux nous acclimater à la région."
  norse_culture_british_isles.3001.a:0 "Aux nouveaux amis et aux nouveaux projets !"
@@ -69,15 +69,15 @@
  norse_culture_british_isles.3002.a:0 "Nous sommes Nord-Brittoniques !"
 
  norse_culture_british_isles.3003.t:0 "$norse_culture_british_isles.3001.t$"
- norse_culture_british_isles.3003.desc:0 "Un groupe de colons originaires de Scandinavie s'est installé sur les terres brittoniques.\n\n[norse_brythonic_founder.Custom('FR_only_le_GetTitledFirstName')|U][norse_brythonic_founder.GetTitledFirstName] qui se trouve à leur tête a décrété que son peuple adopterait certaines traditions locales afin de s'assurer qu'il s'épanouisse dans ce nouveau pays."
+ norse_culture_british_isles.3003.desc:0 "Un groupe de colons originaires de Scandinavie s'est installé sur les terres brittoniques.\n\n[llychlynwr_founder.Custom('FR_only_le_GetTitledFirstName')|U][llychlynwr_founder.GetTitledFirstName] qui se trouve à leur tête a décrété que son peuple adopterait certaines traditions locales afin de s'assurer qu'il s'épanouisse dans ce nouveau pays."
  norse_culture_british_isles.3003.a:0 "Qu'est-ce que cela implique pour la région ?"
 
- # Establish Norse-Brythonic Culture
- establish_norse_brythonic_culture_decision:0 "Établir une culture nord-brittonique"
- establish_norse_brythonic_culture_decision_desc:0 "Nous ne pouvons plus nier le fait que la Britannie est notre nouveau foyer. Reconnaissons enfin que nos traditions ont évoluées."
- establish_norse_brythonic_culture_decision_confirm:0 "Nous sommes Nord-Brittoniques."
- establish_norse_brythonic_culture_decision_tooltip:0 "Fusionner notre culture nordique et les traditions brittoniques locales"
- establish_norse_brythonic_culture_decision_effect.tt:0 "Tous les comtés [old_culture_1.GetCollectiveNoun] et nord-germaniques et tous les personnages au pays de Galles et en Écosse deviennent [new_culture.GetCollectiveNoun]"
+ # Establish Llychlynwr Culture
+ establish_llychlynwr_culture_decision:0 "Établir une culture nord-brittonique"
+ establish_llychlynwr_culture_decision_desc:0 "Nous ne pouvons plus nier le fait que la Britannie est notre nouveau foyer. Reconnaissons enfin que nos traditions ont évoluées."
+ establish_llychlynwr_culture_decision_confirm:0 "Nous sommes Nord-Brittoniques."
+ establish_llychlynwr_culture_decision_tooltip:0 "Fusionner notre culture nordique et les traditions brittoniques locales"
+ establish_llychlynwr_culture_decision_effect.tt:0 "Tous les comtés [old_culture_1.GetCollectiveNoun] et nord-germaniques et tous les personnages au pays de Galles et en Écosse deviennent [new_culture.GetCollectiveNoun]"
  MY_CAPITAL_IS_IN_WALES:1 "Votre [realm_capital|E] est au pays de Galles"
  HOLDS_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:0 "A au moins un [county|E] de culture nord-germanique au pays de Galles"
  I_HOLD_AT_LEAST_ONE_NG_COUNTY_IN_WALES_TRIGGER:1 "Vous avez au moins un [county|E] de culture nord-germanique au pays de Galles"
