@@ -1,7 +1,7 @@
 ﻿innovation_viking_tradition = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @hird
+	icon = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
 
 	potential = {
 		has_fp1_dlc_trigger = yes
@@ -27,7 +27,7 @@
 innovation_hird = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @weapons_and_armor_02
+	icon = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
 
 	potential = {
 		OR = {
