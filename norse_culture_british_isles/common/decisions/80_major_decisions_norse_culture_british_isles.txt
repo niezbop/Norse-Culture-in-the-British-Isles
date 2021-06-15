@@ -36,11 +36,11 @@
 			}
 		}
 		OR = {
-			completely_controls = title:d_northumberland
-			completely_controls = title:d_york
-			completely_controls = title:d_lancaster
-			completely_controls = title:d_hereford
-			completely_controls = title:d_norfolk
+			title:d_northumberland = { title_held_years >= 15 }
+			title:d_york = { title_held_years >= 15 }
+			title:d_lancaster = { title_held_years >= 15 }
+			title:d_hereford = { title_held_years >= 15 }
+			title:d_norfolk = { title_held_years >= 15 }
 		}
 	}
 
@@ -169,14 +169,14 @@
 	}
 }
 
-establish_norse_gaelic_culture_decision = {
+establish_lochlannach_culture_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = yes
 
 	ai_check_interval = 36
 
-	desc = establish_norse_gaelic_culture_decision_desc
-	selection_tooltip = establish_norse_gaelic_culture_decision_tooltip
+	desc = establish_lochlannach_culture_decision_desc
+	selection_tooltip = establish_lochlannach_culture_decision_tooltip
 
 	is_shown = {
 		is_landed = yes
@@ -188,7 +188,7 @@ establish_norse_gaelic_culture_decision = {
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:establish_norse_gaelic_culture_decision
+				target = flag:establish_lochlannach_culture_decision
 			}
 		}
 	}
@@ -214,11 +214,11 @@ establish_norse_gaelic_culture_decision = {
 			}
 		}
 		OR = {
-			completely_controls = title:d_western_isles
-			completely_controls = title:d_the_isles
-			completely_controls = title:d_moray
-			completely_controls = title:d_ulster
-			completely_controls = title:d_meath
+			title:d_western_isles = { title_held_years >= 15 }
+			title:d_the_isles = { title_held_years >= 15 }
+			title:d_moray = { title_held_years >= 15 }
+			title:d_ulster = { title_held_years >= 15 }
+			title:d_meath = { title_held_years >= 15 }
 		}
 	}
 
@@ -246,32 +246,32 @@ establish_norse_gaelic_culture_decision = {
 							culture_group = culture_group:goidelic_group
 						}
 					}
-					add_to_list = norse_gaelic_counties
+					add_to_list = lochlannach_counties
 				}
 			}
 
-			save_scope_as = norse_gaelic_founder
+			save_scope_as = lochlannach_founder
 			culture = { save_scope_as = old_culture }
 
 			# Perform the culture flip.
 			every_in_list = {
-				list = norse_gaelic_counties
+				list = lochlannach_counties
 				merge_culture_groups_in_region_effect = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
-					NEW_CULTURE = culture:norse_gaelic
+					NEW_CULTURE = culture:lochlannach
 					REGION = custom_scotland
 				}
 				merge_culture_groups_in_region_effect = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:goidelic_group
-					NEW_CULTURE = culture:norse_gaelic
+					NEW_CULTURE = culture:lochlannach
 					REGION = custom_ireland
 				}
 			}
 
 			# Send all players in the game a notification event about the flip.
-			culture:norse_gaelic = {
+			culture:lochlannach = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
@@ -309,13 +309,13 @@ establish_norse_gaelic_culture_decision = {
 		}
 
 		# Player changes culture
-		set_culture = culture:norse_gaelic
+		set_culture = culture:lochlannach
 		add_character_flag = converted_culture_this_lifetime
 		hidden_effect = {
 			every_in_list = {
-				list = norse_gaelic_counties
+				list = lochlannach_counties
 				limit = {
-					holder.capital_county = { is_in_list = norse_gaelic_counties }
+					holder.capital_county = { is_in_list = lochlannach_counties }
 				}
 				holder = {
 					add_to_list = mass_melting_pot_list
@@ -330,15 +330,15 @@ establish_norse_gaelic_culture_decision = {
 							culture_group = culture_group:goidelic_group
 						}
 					}
-					set_culture = culture:norse_gaelic
+					set_culture = culture:lochlannach
 				}
 			}
 		}
 
 		# Summary of above hidden effects to inform players of the decision's impact.
 		show_as_tooltip = {
-			custom_tooltip = establish_norse_gaelic_culture_decision_effect.tt
-			culture:norse_gaelic = {
+			custom_tooltip = establish_lochlannach_culture_decision_effect.tt
+			culture:lochlannach = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:gaelic
 				get_all_innovations_from = culture:irish
@@ -347,7 +347,7 @@ establish_norse_gaelic_culture_decision = {
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:establish_norse_gaelic_culture_decision
+			target = flag:establish_lochlannach_culture_decision
 		}
 	}
 	
@@ -360,14 +360,14 @@ establish_norse_gaelic_culture_decision = {
 	}
 }
 
-establish_norse_brythonic_culture_decision = {
+establish_llychlynwr_culture_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = yes
 
 	ai_check_interval = 36
 
-	desc = establish_norse_brythonic_culture_decision_desc
-	selection_tooltip = establish_norse_brythonic_culture_decision_tooltip
+	desc = establish_llychlynwr_culture_decision_desc
+	selection_tooltip = establish_llychlynwr_culture_decision_tooltip
 
 	is_shown = {
 		is_landed = yes
@@ -376,7 +376,7 @@ establish_norse_brythonic_culture_decision = {
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:establish_norse_brythonic_culture_decision
+				target = flag:establish_llychlynwr_culture_decision
 			}
 		}
 	}
@@ -396,10 +396,10 @@ establish_norse_brythonic_culture_decision = {
 			}
 		}
 		OR = {
-			completely_controls = title:d_gwynedd
-			completely_controls = title:d_deheubarth
-			completely_controls = title:d_cornwall
-			completely_controls = title:d_galloway
+			title:d_gwynedd = { title_held_years >= 15 }
+			title:d_deheubarth = { title_held_years >= 15 }
+			title:d_cornwall = { title_held_years >= 15 }
+			title:d_galloway = { title_held_years >= 15 }
 		}
 	}
 
@@ -427,32 +427,32 @@ establish_norse_brythonic_culture_decision = {
 							culture_group = culture_group:brythonic_group
 						}
 					}
-					add_to_list = norse_brythonic_counties
+					add_to_list = llychlynwr_counties
 				}
 			}
 
-			save_scope_as = norse_brythonic_founder
+			save_scope_as = llychlynwr_founder
 			culture = { save_scope_as = old_culture }
 
 			# Perform the culture flip.
 			every_in_list = {
-				list = norse_brythonic_counties
+				list = llychlynwr_counties
 				merge_culture_groups_in_region_effect = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:brythonic_group
-					NEW_CULTURE = culture:norse_brythonic
+					NEW_CULTURE = culture:llychlynwr
 					REGION = custom_wales
 				}
 				merge_culture_groups_in_region_effect = {
 					OLD_CULTURE_GROUP_1 = culture_group:north_germanic_group
 					OLD_CULTURE_GROUP_2 = culture_group:brythonic_group
-					NEW_CULTURE = culture:norse_brythonic
+					NEW_CULTURE = culture:llychlynwr
 					REGION = custom_scotland
 				}
 			}
 
 			# Send all players in the game a notification event about the flip.
-			culture:norse_brythonic = {
+			culture:llychlynwr = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:welsh
 				get_all_innovations_from = culture:cumbrian
@@ -490,13 +490,13 @@ establish_norse_brythonic_culture_decision = {
 		}
 
 		# Player changes culture
-		set_culture = culture:norse_brythonic
+		set_culture = culture:llychlynwr
 		add_character_flag = converted_culture_this_lifetime
 		hidden_effect = {
 			every_in_list = {
-				list = norse_brythonic_counties
+				list = llychlynwr_counties
 				limit = {
-					holder.capital_county = { is_in_list = norse_brythonic_counties }
+					holder.capital_county = { is_in_list = llychlynwr_counties }
 				}
 				holder = {
 					add_to_list = mass_melting_pot_list
@@ -511,15 +511,15 @@ establish_norse_brythonic_culture_decision = {
 							culture_group = culture_group:brythonic_group
 						}
 					}
-					set_culture = culture:norse_brythonic
+					set_culture = culture:llychlynwr
 				}
 			}
 		}
 
 		# Summary of above hidden effects to inform players of the decision's impact.
 		show_as_tooltip = {
-			custom_tooltip = establish_norse_brythonic_culture_decision_effect.tt
-			culture:norse_brythonic = {
+			custom_tooltip = establish_llychlynwr_culture_decision_effect.tt
+			culture:llychlynwr = {
 				get_all_innovations_from = scope:old_culture
 				get_all_innovations_from = culture:welsh
 				get_all_innovations_from = culture:cumbrian
@@ -528,7 +528,7 @@ establish_norse_brythonic_culture_decision = {
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
-			target = flag:establish_norse_brythonic_culture_decision
+			target = flag:establish_llychlynwr_culture_decision
 		}
 	}
 

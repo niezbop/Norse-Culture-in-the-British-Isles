@@ -1,7 +1,33 @@
-﻿innovation_hird = {
+﻿innovation_viking_tradition = {
 	group = culture_group_regional
-	culture_era = culture_era_early_medieval
-	icon = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+	culture_era = culture_era_tribal
+	icon = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
+
+	potential = {
+		has_fp1_dlc_trigger = yes
+		OR = {
+			# North Germanic
+			this = culture:norse
+			this = culture:swedish
+			this = culture:norwegian
+			this = culture:danish
+			this = culture:northeod
+			this = culture:lochlannach
+			this = culture:llychlynwr
+		}
+	}
+
+	unlock_maa = bondi
+	unlock_maa = vigmen
+	unlock_maa = varangian_veterans
+
+	flag = global_maa
+}
+
+innovation_hird = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
 
 	potential = {
 		OR = {
@@ -11,8 +37,8 @@
 			this = culture:norwegian
 			this = culture:danish
 			this = culture:northeod
-			this = culture:norse_gaelic
-			this = culture:norse_brythonic
+			this = culture:lochlannach
+			this = culture:llychlynwr
 
 			# West Germanic
 			this = culture:anglo_saxon
