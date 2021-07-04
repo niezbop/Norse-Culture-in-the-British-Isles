@@ -5,5 +5,5 @@ tags={
 	"Fixes"
 }
 name="More Cultural Names + Norse Cultures in the British Isles"
-supported_version="1.3.*"
+supported_version="1.4.*"
 remote_file_id="2283101111"
